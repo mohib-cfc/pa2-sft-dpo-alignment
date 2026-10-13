@@ -1,0 +1,25 @@
+{
+  "n_pairs": 24,
+  "n_judged": 24,
+  "n_unknown": 0,
+  "n_missing": 0,
+  "wins": {
+    "smollm2-360m-lora-dpo": 3,
+    "smollm2-360m-instruct": 20
+  },
+  "ties": 1,
+  "judge_model": "google/gemini-3-flash-preview",
+  "timestamp": "2026-10-12T21:53:02.720636+00:00",
+  "mode": "persona_quality",
+  "failed_batches": 0,
+  "retries": 0,
+  "pairs_path": "results/pairs/persona_lora_vs_base.jsonl",
+  "win_rate_ties_half": {
+    "smollm2-360m-lora-dpo": 0.14583333333333334,
+    "smollm2-360m-instruct": 0.8541666666666666
+  },
+  "win_rate_excl_ties": {
+    "smollm2-360m-lora-dpo": 0.13043478260869565,
+    "smollm2-360m-instruct": 0.8695652173913043
+  }
+}

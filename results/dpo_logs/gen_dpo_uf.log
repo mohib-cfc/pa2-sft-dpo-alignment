@@ -1,0 +1,22 @@
+The tokenizer you are loading from 'outputs/dpo_uf/best' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+[gen] qwen2.5-0.5b-dpo-uf: 16/300
+[gen] qwen2.5-0.5b-dpo-uf: 32/300
+[gen] qwen2.5-0.5b-dpo-uf: 48/300
+[gen] qwen2.5-0.5b-dpo-uf: 64/300
+[gen] qwen2.5-0.5b-dpo-uf: 80/300
+[gen] qwen2.5-0.5b-dpo-uf: 96/300
+[gen] qwen2.5-0.5b-dpo-uf: 112/300
+[gen] qwen2.5-0.5b-dpo-uf: 128/300
+[gen] qwen2.5-0.5b-dpo-uf: 144/300
+[gen] qwen2.5-0.5b-dpo-uf: 160/300
+[gen] qwen2.5-0.5b-dpo-uf: 176/300
+[gen] qwen2.5-0.5b-dpo-uf: 192/300
+[gen] qwen2.5-0.5b-dpo-uf: 208/300
+[gen] qwen2.5-0.5b-dpo-uf: 224/300
+[gen] qwen2.5-0.5b-dpo-uf: 240/300
+[gen] qwen2.5-0.5b-dpo-uf: 256/300
+[gen] qwen2.5-0.5b-dpo-uf: 272/300
+[gen] qwen2.5-0.5b-dpo-uf: 288/300
+[gen] qwen2.5-0.5b-dpo-uf: 300/300
+[gen] wrote outputs/generations/dpo_uf_alpaca.json (300 rows, 328s)

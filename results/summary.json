@@ -1,0 +1,330 @@
+{
+  "tracks": {
+    "hh_dpo_vs_sft": {
+      "n_pairs": 300,
+      "n_judged": 300,
+      "n_unknown": 0,
+      "n_missing": 0,
+      "wins": {
+        "qwen2.5-0.5b-sft": 104,
+        "qwen2.5-0.5b-dpo-hh": 120
+      },
+      "ties": 76,
+      "judge_model": "google/gemini-3-flash-preview",
+      "timestamp": "2026-10-13T02:19:38.820623+00:00",
+      "failed_batches": 0,
+      "retries": 0,
+      "mode": "safety",
+      "win_rate_ties_half": {
+        "qwen2.5-0.5b-sft": 0.47333333333333333,
+        "qwen2.5-0.5b-dpo-hh": 0.5266666666666666
+      },
+      "win_rate_excl_ties": {
+        "qwen2.5-0.5b-sft": 0.4642857142857143,
+        "qwen2.5-0.5b-dpo-hh": 0.5357142857142857
+      },
+      "focus_model": "qwen2.5-0.5b-dpo-hh",
+      "by_category": {
+        "harmful_instructions": {
+          "n": 30,
+          "focus_wins": 13,
+          "other_wins": 3,
+          "ties": 14,
+          "unknown": 0,
+          "win_rate_ties_half": 0.6666666666666666
+        },
+        "benign_helpfulness": {
+          "n": 30,
+          "focus_wins": 12,
+          "other_wins": 18,
+          "ties": 0,
+          "unknown": 0,
+          "win_rate_ties_half": 0.4
+        },
+        "legal_financial_safety": {
+          "n": 30,
+          "focus_wins": 12,
+          "other_wins": 10,
+          "ties": 8,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5333333333333333
+        },
+        "hate_or_harassment": {
+          "n": 30,
+          "focus_wins": 15,
+          "other_wins": 11,
+          "ties": 4,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5666666666666667
+        },
+        "safe_transformation": {
+          "n": 30,
+          "focus_wins": 10,
+          "other_wins": 12,
+          "ties": 8,
+          "unknown": 0,
+          "win_rate_ties_half": 0.4666666666666667
+        },
+        "cyber_abuse": {
+          "n": 30,
+          "focus_wins": 11,
+          "other_wins": 9,
+          "ties": 10,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5333333333333333
+        },
+        "calibration_and_uncertainty": {
+          "n": 30,
+          "focus_wins": 15,
+          "other_wins": 10,
+          "ties": 5,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5833333333333334
+        },
+        "privacy_and_doxxing": {
+          "n": 30,
+          "focus_wins": 12,
+          "other_wins": 8,
+          "ties": 10,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5666666666666667
+        },
+        "medical_safety": {
+          "n": 30,
+          "focus_wins": 13,
+          "other_wins": 9,
+          "ties": 8,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5666666666666667
+        },
+        "self_harm_support": {
+          "n": 30,
+          "focus_wins": 7,
+          "other_wins": 14,
+          "ties": 9,
+          "unknown": 0,
+          "win_rate_ties_half": 0.38333333333333336
+        }
+      },
+      "mean_words": {
+        "qwen2.5-0.5b-dpo-hh": 110.58333333333333,
+        "qwen2.5-0.5b-sft": 132.94333333333333
+      }
+    },
+    "uf_dpo_vs_sft": {
+      "n_pairs": 300,
+      "n_judged": 300,
+      "n_unknown": 0,
+      "n_missing": 0,
+      "wins": {
+        "qwen2.5-0.5b-sft": 104,
+        "qwen2.5-0.5b-dpo-uf": 124
+      },
+      "ties": 72,
+      "judge_model": "google/gemini-3-flash-preview",
+      "timestamp": "2026-10-13T02:19:38.834132+00:00",
+      "failed_batches": 0,
+      "retries": 0,
+      "mode": "general",
+      "win_rate_ties_half": {
+        "qwen2.5-0.5b-sft": 0.4666666666666667,
+        "qwen2.5-0.5b-dpo-uf": 0.5333333333333333
+      },
+      "win_rate_excl_ties": {
+        "qwen2.5-0.5b-sft": 0.45614035087719296,
+        "qwen2.5-0.5b-dpo-uf": 0.543859649122807
+      },
+      "focus_model": "qwen2.5-0.5b-dpo-uf",
+      "by_category": {
+        "all": {
+          "n": 300,
+          "focus_wins": 124,
+          "other_wins": 104,
+          "ties": 72,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5333333333333333
+        }
+      },
+      "mean_words": {
+        "qwen2.5-0.5b-dpo-uf": 197.39333333333335,
+        "qwen2.5-0.5b-sft": 136.37
+      }
+    },
+    "persona_style": {
+      "n_pairs": 24,
+      "n_judged": 24,
+      "n_unknown": 0,
+      "n_missing": 0,
+      "wins": {
+        "smollm2-360m-lora-dpo": 8,
+        "smollm2-360m-instruct": 2
+      },
+      "ties": 14,
+      "judge_model": "google/gemini-3-flash-preview",
+      "timestamp": "2026-10-13T02:19:38.842626+00:00",
+      "failed_batches": 0,
+      "retries": 0,
+      "mode": "persona_style",
+      "win_rate_ties_half": {
+        "smollm2-360m-lora-dpo": 0.625,
+        "smollm2-360m-instruct": 0.375
+      },
+      "win_rate_excl_ties": {
+        "smollm2-360m-lora-dpo": 0.8,
+        "smollm2-360m-instruct": 0.2
+      },
+      "focus_model": "smollm2-360m-lora-dpo",
+      "by_category": {
+        "cooking": {
+          "n": 8,
+          "focus_wins": 5,
+          "other_wins": 0,
+          "ties": 3,
+          "unknown": 0,
+          "win_rate_ties_half": 0.8125
+        },
+        "coding": {
+          "n": 6,
+          "focus_wins": 1,
+          "other_wins": 0,
+          "ties": 5,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5833333333333334
+        },
+        "general": {
+          "n": 6,
+          "focus_wins": 0,
+          "other_wins": 0,
+          "ties": 6,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5
+        },
+        "safety": {
+          "n": 4,
+          "focus_wins": 2,
+          "other_wins": 2,
+          "ties": 0,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5
+        }
+      },
+      "mean_words": {
+        "smollm2-360m-lora-dpo": 132.58333333333334,
+        "smollm2-360m-instruct": 146.125
+      }
+    },
+    "persona_quality": {
+      "n_pairs": 24,
+      "n_judged": 24,
+      "n_unknown": 0,
+      "n_missing": 0,
+      "wins": {
+        "smollm2-360m-lora-dpo": 3,
+        "smollm2-360m-instruct": 20
+      },
+      "ties": 1,
+      "judge_model": "google/gemini-3-flash-preview",
+      "timestamp": "2026-10-13T02:19:38.843624+00:00",
+      "failed_batches": 0,
+      "retries": 0,
+      "mode": "persona_quality",
+      "win_rate_ties_half": {
+        "smollm2-360m-lora-dpo": 0.14583333333333334,
+        "smollm2-360m-instruct": 0.8541666666666666
+      },
+      "win_rate_excl_ties": {
+        "smollm2-360m-lora-dpo": 0.13043478260869565,
+        "smollm2-360m-instruct": 0.8695652173913043
+      },
+      "focus_model": "smollm2-360m-lora-dpo",
+      "by_category": {
+        "cooking": {
+          "n": 8,
+          "focus_wins": 0,
+          "other_wins": 8,
+          "ties": 0,
+          "unknown": 0,
+          "win_rate_ties_half": 0.0
+        },
+        "coding": {
+          "n": 6,
+          "focus_wins": 1,
+          "other_wins": 4,
+          "ties": 1,
+          "unknown": 0,
+          "win_rate_ties_half": 0.25
+        },
+        "general": {
+          "n": 6,
+          "focus_wins": 0,
+          "other_wins": 6,
+          "ties": 0,
+          "unknown": 0,
+          "win_rate_ties_half": 0.0
+        },
+        "safety": {
+          "n": 4,
+          "focus_wins": 2,
+          "other_wins": 2,
+          "ties": 0,
+          "unknown": 0,
+          "win_rate_ties_half": 0.5
+        }
+      },
+      "mean_words": {
+        "smollm2-360m-lora-dpo": 132.58333333333334,
+        "smollm2-360m-instruct": 146.125
+      }
+    }
+  },
+  "generation_lengths": {
+    "base_alpaca": {
+      "n": 300,
+      "generator": "qwen2.5-0.5b-base",
+      "mean_words": 263.66333333333336,
+      "empty": 0
+    },
+    "base_hh": {
+      "n": 300,
+      "generator": "qwen2.5-0.5b-base",
+      "mean_words": 255.49,
+      "empty": 0
+    },
+    "dpo_hh_hh": {
+      "n": 300,
+      "generator": "qwen2.5-0.5b-dpo-hh",
+      "mean_words": 110.58333333333333,
+      "empty": 0
+    },
+    "dpo_uf_alpaca": {
+      "n": 300,
+      "generator": "qwen2.5-0.5b-dpo-uf",
+      "mean_words": 197.39333333333335,
+      "empty": 0
+    },
+    "persona_base": {
+      "n": 24,
+      "generator": "smollm2-360m-instruct",
+      "mean_words": 146.125,
+      "empty": 0
+    },
+    "persona_lora": {
+      "n": 24,
+      "generator": "smollm2-360m-lora-dpo",
+      "mean_words": 132.58333333333334,
+      "empty": 0
+    },
+    "sft_alpaca": {
+      "n": 300,
+      "generator": "qwen2.5-0.5b-sft",
+      "mean_words": 136.37,
+      "empty": 0
+    },
+    "sft_hh": {
+      "n": 300,
+      "generator": "qwen2.5-0.5b-sft",
+      "mean_words": 132.94333333333333,
+      "empty": 0
+    }
+  }
+}

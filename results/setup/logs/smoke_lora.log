@@ -1,0 +1,17 @@
+[lora] train=200 eval=20
+`torch_dtype` is deprecated! Use `dtype` instead!
+Tokenizing train dataset:   0%|          | 0/200 [00:00<?, ? examples/s]Tokenizing train dataset:  38%|███▊      | 75/200 [00:00<00:00, 731.46 examples/s]Tokenizing train dataset:  78%|███████▊  | 156/200 [00:00<00:00, 772.42 examples/s]Tokenizing train dataset: 100%|██████████| 200/200 [00:00<00:00, 677.11 examples/s]
+Tokenizing eval dataset:   0%|          | 0/20 [00:00<?, ? examples/s]Tokenizing eval dataset: 100%|██████████| 20/20 [00:00<00:00, 642.46 examples/s]
+[lora] trainable params: 8,683,520 / 370,504,640 (2.34%)
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.66s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.38s/it]100%|██████████| 3/3 [00:04<00:00,  1.28s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][A
+ 40%|████      | 2/5 [00:00<00:00,  9.28it/s][A
+ 60%|██████    | 3/5 [00:00<00:00,  6.54it/s][A
+ 80%|████████  | 4/5 [00:00<00:00,  5.63it/s][A
+100%|██████████| 5/5 [00:00<00:00,  5.20it/s][A                                             
+                                             [A{'eval_loss': 0.6802630424499512, 'eval_runtime': 1.1132, 'eval_samples_per_second': 17.966, 'eval_steps_per_second': 4.492, 'eval_entropy': 2.2484708547592165, 'eval_num_tokens': 4680.0, 'eval_logits/chosen': 0.614005075501499, 'eval_logits/rejected': 0.0613714137243057, 'eval_mean_token_accuracy': 0.31674585342407224, 'eval_rewards/chosen': 0.021557922661304473, 'eval_rewards/rejected': -0.004392776591703296, 'eval_rewards/accuracies': 1.0, 'eval_rewards/margins': 0.02595069967210293, 'eval_logps/chosen': -174.49237365722655, 'eval_logps/rejected': -125.6991943359375, 'epoch': 0.12}
+100%|██████████| 3/3 [00:05<00:00,  1.28s/it]
+100%|██████████| 5/5 [00:00<00:00,  5.20it/s][A
+                                             [A                                             {'train_runtime': 5.1255, 'train_samples_per_second': 4.682, 'train_steps_per_second': 0.585, 'train_loss': 0.6906219323476156, 'epoch': 0.12}
+100%|██████████| 3/3 [00:05<00:00,  1.28s/it]100%|██████████| 3/3 [00:05<00:00,  1.71s/it]
+[lora] done

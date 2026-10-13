@@ -1,0 +1,172 @@
+[{"stream_name":"stderr","time":6.948078064,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.9481193359999995,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.981370669,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.981398632,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.981404483,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.981409183,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.618626855,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.618674374,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.618680234,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.618684515,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.840630656,"data":"Mon Oct 12 21:27:17 2026       \r\n"}
+,{"stream_name":"stdout","time":9.840661301,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":9.840665361,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\r\n"}
+,{"stream_name":"stdout","time":9.840668252,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":9.840671018,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\r\n"}
+,{"stream_name":"stdout","time":9.840673706,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\r\n"}
+,{"stream_name":"stdout","time":9.840676355,"data":"|                                         |                        |               MIG M. |\r\n"}
+,{"stream_name":"stdout","time":9.840679026,"data":"|=========================================+========================+======================|\r\n"}
+,{"stream_name":"stdout","time":9.890593965,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\r\n"}
+,{"stream_name":"stdout","time":9.890612393,"data":"| N/A   46C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\r\n"}
+,{"stream_name":"stdout","time":9.890617967,"data":"|                                         |                        |                  N/A |\r\n"}
+,{"stream_name":"stdout","time":9.890622096,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":9.890626461,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\r\n"}
+,{"stream_name":"stdout","time":9.890630693,"data":"| N/A   49C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\r\n"}
+,{"stream_name":"stdout","time":9.8906348,"data":"|                                         |                        |                  N/A |\r\n"}
+,{"stream_name":"stdout","time":9.890648957,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":9.890652795,"data":"\r\n"}
+,{"stream_name":"stdout","time":9.89065622,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":9.890659952,"data":"| Processes:                                                                              |\r\n"}
+,{"stream_name":"stdout","time":9.890663569,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\r\n"}
+,{"stream_name":"stdout","time":9.89066723,"data":"|        ID   ID                                                               Usage      |\r\n"}
+,{"stream_name":"stdout","time":9.890675178,"data":"|=========================================================================================|\r\n"}
+,{"stream_name":"stdout","time":9.890678303,"data":"|  No running processes found                                                             |\r\n"}
+,{"stream_name":"stdout","time":9.890680755,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":11.127081018,"data":"\u001b[33m39d31c9\u001b[m\u001b[33m (\u001b[m\u001b[1;36mHEAD\u001b[m\u001b[33m, \u001b[m\u001b[1;31morigin/main\u001b[m\u001b[33m, \u001b[m\u001b[1;31morigin/HEAD\u001b[m\u001b[33m, \u001b[m\u001b[1;32mmain\u001b[m\u001b[33m)\u001b[m Setup stage evidence, exact filter counts, DPO scaler init\r\n"}
+,{"stream_name":"stdout","time":15.111260513,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/44.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.0/44.0 kB\u001b[0m \u001b[31m1.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":16.884979664,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.0/12.0 MB\u001b[0m \u001b[31m60.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.0/12.0 MB\u001b[0m \u001b[31m88.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m167.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m167.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m86.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":16.936150022,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/557.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m557.0/557.0 kB\u001b[0m \u001b[31m23.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":16.98675007,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/531.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m531.0/531.0 kB\u001b[0m \u001b[31m26.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":17.038076078,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/566.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m566.4/566.4 kB\u001b[0m \u001b[31m25.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":17.088887579,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m243.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m84.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":33.70223974,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":33.702265311,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":33.702270929,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":39.583667621000004,"data":"\u001b[0m  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":39.786142934,"data":"  Checking if build backend supports build_editable ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":39.989130067,"data":"  Getting requirements to build editable ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":40.243273409,"data":"  Preparing editable metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":40.851815609,"data":"  Building editable for pa2-small-model-alignment (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":87.231891302,"data":"python 3.13.15\n"}
+,{"stream_name":"stdout","time":87.231949932,"data":"torch 2.11.0+cu128 | cuda 12.8\n"}
+,{"stream_name":"stdout","time":87.231956974,"data":"transformers 4.57.6 | datasets 4.8.5 | trl 0.29.1 | peft 0.18.1\n"}
+,{"stream_name":"stdout","time":87.232883993,"data":"GPUs: 2 ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":87.384766251,"data":"[stage] (sft) gpu0: /usr/bin/python3 -m pa2.train_sft --config configs/sft.yaml\r\n"}
+,{"stream_name":"stdout","time":87.384791943,"data":"[stage] (gen_base) gpu1: /usr/bin/python3 -m pa2.generate --model Qwen/Qwen2.5-0.5B --generator qwen2.5-0.5b-base --eval_set eval_sets/alpaca_eval_300_seed42.json eval_sets/hh_rlhf_eval_300_seed42.json --out outputs/generations/base_alpaca.json outputs/generations/base_hh.json\r\n"}
+,{"stream_name":"stdout","time":387.403085005,"data":"[hb] gen_base.log:\r\n"}
+,{"stream_name":"stdout","time":387.403156518,"data":"[gen] qwen2.5-0.5b-base: 208/300\r\n"}
+,{"stream_name":"stdout","time":387.403164152,"data":"[gen] qwen2.5-0.5b-base: 224/300\r\n"}
+,{"stream_name":"stdout","time":387.403192055,"data":"[gen] qwen2.5-0.5b-base: 240/300\r\n"}
+,{"stream_name":"stdout","time":387.403198207,"data":"[hb] sft.log:\r\n"}
+,{"stream_name":"stdout","time":387.403203622,"data":"  win_loss += float(loss)\r\n"}
+,{"stream_name":"stdout","time":387.40320908,"data":"[sft] step 1/938 loss=1.2941 lr=7.14e-07 gn=6.50 scale=65536 eta=1h19m peak=9.9GB\r\n"}
+,{"stream_name":"stdout","time":387.403215117,"data":"[sft] step 10/938 loss=1.2576 lr=7.14e-06 gn=4.27 scale=65536 eta=1h13m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":687.410610603,"data":"[hb] gen_base.log:\r\n"}
+,{"stream_name":"stdout","time":687.410658937,"data":"[gen] qwen2.5-0.5b-base: 160/300\r\n"}
+,{"stream_name":"stdout","time":687.410663281,"data":"[gen] qwen2.5-0.5b-base: 176/300\r\n"}
+,{"stream_name":"stdout","time":687.410666548,"data":"[gen] qwen2.5-0.5b-base: 192/300\r\n"}
+,{"stream_name":"stdout","time":687.410669622,"data":"[hb] sft.log:\r\n"}
+,{"stream_name":"stdout","time":687.410672744,"data":"[sft] step 40/938 loss=1.4772 lr=2.00e-05 gn=4.46 scale=65536 eta=1h16m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":687.410675936,"data":"[sft] step 50/938 loss=1.3156 lr=2.00e-05 gn=4.71 scale=65536 eta=1h17m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":687.410679117,"data":"[sft] step 60/938 loss=1.5033 lr=1.99e-05 gn=4.09 scale=65536 eta=1h16m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":811.371248717,"data":"[stage] (lora) gpu1: /usr/bin/python3 -m pa2.train_lora_dpo --config configs/lora_persona.yaml\r\n"}
+,{"stream_name":"stdout","time":937.46134242,"data":"[stage] (gen_persona_base) gpu1: /usr/bin/python3 -m pa2.generate --model HuggingFaceTB/SmolLM2-360M-Instruct --generator smollm2-360m-instruct --eval_set eval_sets/persona_style_eval.json --out outputs/generations/persona_base.json --max_new_tokens 256\r\n"}
+,{"stream_name":"stdout","time":976.361122373,"data":"[stage] (gen_persona_lora) gpu1: /usr/bin/python3 -m pa2.generate --model HuggingFaceTB/SmolLM2-360M-Instruct --adapter outputs/lora_persona/adapter --generator smollm2-360m-lora-dpo --eval_set eval_sets/persona_style_eval.json --out outputs/generations/persona_lora.json --max_new_tokens 256\r\n"}
+,{"stream_name":"stdout","time":987.397500768,"data":"[hb] gen_base.log:\r\n"}
+,{"stream_name":"stdout","time":987.397534047,"data":"[gen] qwen2.5-0.5b-base: 288/300\r\n"}
+,{"stream_name":"stdout","time":987.397539462,"data":"[gen] qwen2.5-0.5b-base: 300/300\r\n"}
+,{"stream_name":"stdout","time":987.397543904,"data":"[gen] wrote outputs/generations/base_hh.json (300 rows, 351s)\r\n"}
+,{"stream_name":"stdout","time":987.397548122,"data":"[hb] gen_persona_base.log:\r\n"}
+,{"stream_name":"stdout","time":987.397552314,"data":"[gen] smollm2-360m-instruct: 16/24\r\n"}
+,{"stream_name":"stdout","time":987.397556447,"data":"[gen] smollm2-360m-instruct: 24/24\r\n"}
+,{"stream_name":"stdout","time":987.397572175,"data":"[gen] wrote outputs/generations/persona_base.json (24 rows, 25s)\r\n"}
+,{"stream_name":"stdout","time":987.397576061,"data":"[hb] gen_persona_lora.log:\r\n"}
+,{"stream_name":"stdout","time":987.397579396,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\r\n"}
+,{"stream_name":"stdout","time":987.397582829,"data":"[hb] lora.log:\r\n"}
+,{"stream_name":"stdout","time":987.397586244,"data":"100%|██████████| 75/75 [01:37\u003c00:00,  1.28s/it]\r\n"}
+,{"stream_name":"stdout","time":987.397590863,"data":"100%|██████████| 75/75 [01:37\u003c00:00,  1.30s/it]\r\n"}
+,{"stream_name":"stdout","time":987.397594322,"data":"[lora] done\r\n"}
+,{"stream_name":"stdout","time":987.397597621,"data":"[hb] sft.log:\r\n"}
+,{"stream_name":"stdout","time":987.397600949,"data":"[sft] step 100/938 loss=1.4008 lr=1.97e-05 gn=3.75 scale=65536 eta=1h15m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":987.397604471,"data":"[sft] step 110/938 loss=1.4688 lr=1.96e-05 gn=4.74 scale=65536 eta=1h14m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":987.39760811,"data":"[sft] step 120/938 loss=1.4164 lr=1.95e-05 gn=4.12 scale=65536 eta=1h13m peak=13.4GB\r\n"}
+,{"stream_name":"stdout","time":1142.32006019,"data":"[stage] sft FAILED\r\n"}
+,{"stream_name":"stdout","time":1142.320097855,"data":"Traceback (most recent call last):\r\n"}
+,{"stream_name":"stdout","time":1142.320115915,"data":"  File \"/kaggle/working/pa2/pa2/stage.py\", line 77, in task\r\n"}
+,{"stream_name":"stdout","time":1142.320121629,"data":"    fn()\r\n"}
+,{"stream_name":"stdout","time":1142.320126541,"data":"    ~~^^\r\n"}
+,{"stream_name":"stdout","time":1142.32013155,"data":"  File \"/kaggle/working/pa2/pa2/stage.py\", line 168, in sft\r\n"}
+,{"stream_name":"stdout","time":1142.3201362,"data":"    need(run([PY, \"-m\", \"pa2.train_sft\", \"--config\", \"configs/sft.yaml\"], 0, \"sft\"), \"sft\")\r\n"}
+,{"stream_name":"stdout","time":1142.320141075,"data":"    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n"}
+,{"stream_name":"stdout","time":1142.320145528,"data":"  File \"/kaggle/working/pa2/pa2/stage.py\", line 103, in need\r\n"}
+,{"stream_name":"stdout","time":1142.320149826,"data":"    raise RuntimeError(f\"{what} exited with code {rc}\")\r\n"}
+,{"stream_name":"stdout","time":1142.320154051,"data":"RuntimeError: sft exited with code 1\r\n"}
+,{"stream_name":"stdout","time":1142.320158226,"data":"\r\n"}
+,{"stream_name":"stdout","time":1142.320162903,"data":"[stage] (gen_sft) gpu0: /usr/bin/python3 -m pa2.generate --model outputs/sft/best --generator qwen2.5-0.5b-sft --eval_set eval_sets/alpaca_eval_300_seed42.json eval_sets/hh_rlhf_eval_300_seed42.json --out outputs/generations/sft_alpaca.json outputs/generations/sft_hh.json\r\n"}
+,{"stream_name":"stdout","time":1148.096108622,"data":"[stage] gen_sft FAILED\r\n"}
+,{"stream_name":"stdout","time":1148.096137195,"data":"Traceback (most recent call last):\r\n"}
+,{"stream_name":"stdout","time":1148.096142751,"data":"  File \"/kaggle/working/pa2/pa2/stage.py\", line 77, in task\r\n"}
+,{"stream_name":"stdout","time":1148.096147452,"data":"    fn()\r\n"}
+,{"stream_name":"stdout","time":1148.096151748,"data":"    ~~^^\r\n"}
+,{"stream_name":"stdout","time":1148.096155936,"data":"  File \"/kaggle/working/pa2/pa2/stage.py\", line 171, in sft_gen\r\n"}
+,{"stream_name":"stdout","time":1148.096160482,"data":"    need(\r\n"}
+,{"stream_name":"stdout","time":1148.096164615,"data":"    ~~~~^\r\n"}
+,{"stream_name":"stdout","time":1148.096266456,"data":"        run([PY, \"-m\", \"pa2.generate\", \"--model\", \"outputs/sft/best\", \"--generator\", \"qwen2.5-0.5b-sft\",\r\n"}
+,{"stream_name":"stdout","time":1148.096280596,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n"}
+,{"stream_name":"stdout","time":1148.096284184,"data":"    ...\u003c2 lines\u003e...\r\n"}
+,{"stream_name":"stdout","time":1148.096287607,"data":"        \"sft generation\",\r\n"}
+,{"stream_name":"stdout","time":1148.096290869,"data":"        ^^^^^^^^^^^^^^^^^\r\n"}
+,{"stream_name":"stdout","time":1148.096294016,"data":"    )\r\n"}
+,{"stream_name":"stdout","time":1148.0962972,"data":"    ^\r\n"}
+,{"stream_name":"stdout","time":1148.09630034,"data":"  File \"/kaggle/working/pa2/pa2/stage.py\", line 103, in need\r\n"}
+,{"stream_name":"stdout","time":1148.096303758,"data":"    raise RuntimeError(f\"{what} exited with code {rc}\")\r\n"}
+,{"stream_name":"stdout","time":1148.096307179,"data":"RuntimeError: sft generation exited with code 1\r\n"}
+,{"stream_name":"stdout","time":1148.096310534,"data":"\r\n"}
+,{"stream_name":"stdout","time":1148.349324515,"data":"[stage] sft finished: {\"gen_base\": {\"status\": \"ok\", \"seconds\": 724.0}, \"lora\": {\"status\": \"ok\", \"seconds\": 126.1}, \"gen_persona\": {\"status\": \"ok\", \"seconds\": 80.2}, \"sft\": {\"status\": \"FAILED\", \"seconds\": 1054.9}, \"gen_sft\": {\"status\": \"FAILED\", \"seconds\": 5.8}}\r\n"}
+,{"stream_name":"stdout","time":1148.514133984,"data":"110M\toutputs\r\n"}
+,{"stream_name":"stdout","time":1148.514160095,"data":"outputs\r\n"}
+,{"stream_name":"stdout","time":1148.514164397,"data":"outputs/data\r\n"}
+,{"stream_name":"stdout","time":1148.51418361,"data":"outputs/data/sft.json\r\n"}
+,{"stream_name":"stdout","time":1148.51418816,"data":"outputs/generations\r\n"}
+,{"stream_name":"stdout","time":1148.514192631,"data":"outputs/generations/base_alpaca.json\r\n"}
+,{"stream_name":"stdout","time":1148.514196712,"data":"outputs/generations/base_hh.json\r\n"}
+,{"stream_name":"stdout","time":1148.514200494,"data":"outputs/generations/persona_base.json\r\n"}
+,{"stream_name":"stdout","time":1148.514204718,"data":"outputs/generations/persona_lora.json\r\n"}
+,{"stream_name":"stdout","time":1148.514208387,"data":"outputs/logs\r\n"}
+,{"stream_name":"stdout","time":1148.514211861,"data":"outputs/logs/gen_base.log\r\n"}
+,{"stream_name":"stdout","time":1148.514215307,"data":"outputs/logs/gen_persona_base.log\r\n"}
+,{"stream_name":"stdout","time":1148.514218874,"data":"outputs/logs/gen_persona_lora.log\r\n"}
+,{"stream_name":"stdout","time":1148.514222354,"data":"outputs/logs/gen_sft.log\r\n"}
+,{"stream_name":"stdout","time":1148.514225866,"data":"outputs/logs/lora.log\r\n"}
+,{"stream_name":"stdout","time":1148.514229268,"data":"outputs/logs/sft.log\r\n"}
+,{"stream_name":"stdout","time":1148.514232657,"data":"outputs/lora_persona\r\n"}
+,{"stream_name":"stdout","time":1148.514236038,"data":"outputs/lora_persona/adapter\r\n"}
+,{"stream_name":"stdout","time":1148.5142395,"data":"outputs/lora_persona/adapter/adapter_config.json\r\n"}
+,{"stream_name":"stdout","time":1148.514242928,"data":"outputs/lora_persona/adapter/adapter_model.safetensors\r\n"}
+,{"stream_name":"stdout","time":1148.514246454,"data":"outputs/lora_persona/adapter/chat_template.jinja\r\n"}
+,{"stream_name":"stdout","time":1148.51424997,"data":"outputs/lora_persona/adapter/merges.txt\r\n"}
+,{"stream_name":"stdout","time":1148.5142534,"data":"outputs/lora_persona/adapter/README.md\r\n"}
+,{"stream_name":"stdout","time":1148.514256917,"data":"outputs/lora_persona/adapter/special_tokens_map.json\r\n"}
+,{"stream_name":"stdout","time":1148.51426038,"data":"outputs/lora_persona/adapter/tokenizer_config.json\r\n"}
+,{"stream_name":"stdout","time":1148.514289736,"data":"outputs/lora_persona/adapter/tokenizer.json\r\n"}
+,{"stream_name":"stdout","time":1148.514294135,"data":"outputs/lora_persona/adapter/training_args.bin\r\n"}
+,{"stream_name":"stdout","time":1148.514298343,"data":"outputs/lora_persona/adapter/vocab.json\r\n"}
+,{"stream_name":"stdout","time":1148.514302172,"data":"outputs/lora_persona/config_used.json\r\n"}
+,{"stream_name":"stdout","time":1148.514305353,"data":"outputs/lora_persona/log_history.json\r\n"}
+,{"stream_name":"stdout","time":1148.514309009,"data":"outputs/lora_persona/trainer\r\n"}
+,{"stream_name":"stdout","time":1148.514312423,"data":"outputs/sft\r\n"}
+,{"stream_name":"stdout","time":1148.51431602,"data":"outputs/sft/config_used.json\r\n"}
+,{"stream_name":"stdout","time":1148.514320674,"data":"outputs/sft/metrics.jsonl\r\n"}
+,{"stream_name":"stdout","time":1148.514324424,"data":"outputs/sft_small_outputs.zip\r\n"}
+,{"stream_name":"stdout","time":1148.514327595,"data":"outputs/STAGE_sft_DONE.json\r\n"}
+,{"stream_name":"stdout","time":1148.51433172,"data":"outputs/STAGE_sft_gen_sft_FAILED.txt\r\n"}
+,{"stream_name":"stdout","time":1148.514335703,"data":"outputs/STAGE_sft_sft_FAILED.txt\r\n"}
+,{"stream_name":"stderr","time":1153.718064528,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1153.718088414,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1153.880870671,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1153.88089432,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1154.659997155,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1154.740550884,"data":"[NbConvertApp] Writing 18675 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1157.158282314,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1157.670161089,"data":"[NbConvertApp] Writing 292185 bytes to __results__.html\n"}
+]

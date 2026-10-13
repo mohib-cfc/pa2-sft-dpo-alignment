@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "/kaggle/working/pa2/pa2/stage.py", line 77, in task
+    fn()
+    ~~^^
+  File "/kaggle/working/pa2/pa2/stage.py", line 168, in sft
+    need(run([PY, "-m", "pa2.train_sft", "--config", "configs/sft.yaml"], 0, "sft"), "sft")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/pa2/pa2/stage.py", line 103, in need
+    raise RuntimeError(f"{what} exited with code {rc}")
+RuntimeError: sft exited with code 1
+
+--- log tail ---
+[sft] step 1/938 loss=1.2941 lr=7.14e-07 gn=6.50 scale=65536 eta=1h19m peak=9.9GB
+[sft] step 10/938 loss=1.2576 lr=7.14e-06 gn=4.27 scale=65536 eta=1h13m peak=13.4GB
+[sft] step 20/938 loss=1.4762 lr=1.43e-05 gn=3.88 scale=65536 eta=1h14m peak=13.4GB
+[sft] step 30/938 loss=1.4100 lr=2.00e-05 gn=3.64 scale=65536 eta=1h16m peak=13.4GB
+[sft] step 40/938 loss=1.4772 lr=2.00e-05 gn=4.46 scale=65536 eta=1h16m peak=13.4GB
+[sft] step 50/938 loss=1.3156 lr=2.00e-05 gn=4.71 scale=65536 eta=1h17m peak=13.4GB
+[sft] step 60/938 loss=1.5033 lr=1.99e-05 gn=4.09 scale=65536 eta=1h16m peak=13.4GB
+[sft] step 70/938 loss=1.3676 lr=1.99e-05 gn=4.58 scale=65536 eta=1h16m peak=13.4GB
+[sft] step 80/938 loss=1.3210 lr=1.98e-05 gn=4.13 scale=65536 eta=1h16m peak=13.4GB
+[sft] step 90/938 loss=1.3319 lr=1.98e-05 gn=3.88 scale=65536 eta=1h15m peak=13.4GB
+[sft] step 100/938 loss=1.4008 lr=1.97e-05 gn=3.75 scale=65536 eta=1h15m peak=13.4GB
+[sft] step 110/938 loss=1.4688 lr=1.96e-05 gn=4.74 scale=65536 eta=1h14m peak=13.4GB
+[sft] step 120/938 loss=1.4164 lr=1.95e-05 gn=4.12 scale=65536 eta=1h13m peak=13.4GB
+[sft] step 130/938 loss=1.4018 lr=1.94e-05 gn=3.91 scale=65536 eta=1h12m peak=13.4GB
+[sft] step 140/938 loss=1.3393 lr=1.93e-05 gn=3.92 scale=65536 eta=1h11m peak=13.4GB
+[sft] step 150/938 loss=1.3863 lr=1.91e-05 gn=4.08 scale=65536 eta=1h11m peak=13.4GB
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/kaggle/working/pa2/pa2/train_sft.py", line 240, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/pa2/pa2/train_sft.py", line 225, in main
+    run_val(step)
+    ~~~~~~~^^^^^^
+  File "/kaggle/working/pa2/pa2/train_sft.py", line 173, in run_val
+    v = evaluate(model, tokenizer, val, cfg, autocast_ctx)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/kaggle/working/pa2/pa2/train_sft.py", line 87, in evaluate
+    loss, n = core.sft_loss_from_batch(model, batch)
+              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/kaggle/working/pa2/pa2/core.py", line 192, in sft_loss_from_batch
+    logps, counts = batch_logprobs(model, batch)
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/kaggle/working/pa2/pa2/core.py", line 181, in batch_logprobs
+    return sequence_logprobs(logits, batch["labels"])
+  File "/kaggle/working/pa2/pa2/core.py", line 171, in sequence_logprobs
+    log_probs = torch.log_softmax(shift_logits.float(), dim=-1)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.31 GiB. GPU 0 has a total capacity of 14.56 GiB of which 2.09 GiB is free. Including non-PyTorch memory, this process has 12.47 GiB memory in use. Of the allocated memory 11.82 GiB is allocated by PyTorch, and 519.36 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

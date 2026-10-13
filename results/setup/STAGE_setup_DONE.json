@@ -1,0 +1,30 @@
+{
+  "pytest": {
+    "status": "ok",
+    "seconds": 7.3
+  },
+  "probe": {
+    "status": "ok",
+    "seconds": 37.1
+  },
+  "sanity": {
+    "status": "ok",
+    "seconds": 26.0
+  },
+  "data_build": {
+    "status": "ok",
+    "seconds": 164.6
+  },
+  "smoke_sft": {
+    "status": "ok",
+    "seconds": 51.3
+  },
+  "smoke_dpo": {
+    "status": "ok",
+    "seconds": 55.1
+  },
+  "smoke_lora": {
+    "status": "ok",
+    "seconds": 57.2
+  }
+}

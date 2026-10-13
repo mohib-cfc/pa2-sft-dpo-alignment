@@ -1,0 +1,15 @@
+{
+  "steps": 469,
+  "best_step": 450,
+  "best_val_reward_acc": 0.7250000238418579,
+  "best_val_margin": 0.6940412521362305,
+  "final": {
+    "val_loss": 0.5417355298995972,
+    "val_reward_acc": 0.718999981880188,
+    "val_margin": 0.6978176236152649,
+    "val_chosen_reward": -0.16913530230522156,
+    "val_rejected_reward": -0.8669529557228088
+  },
+  "elapsed_s": 6694.415015697479,
+  "peak_gpu_gb": 12.648527872
+}

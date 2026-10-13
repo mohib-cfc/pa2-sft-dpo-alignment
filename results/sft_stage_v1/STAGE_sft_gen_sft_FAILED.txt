@@ -1,0 +1,59 @@
+Traceback (most recent call last):
+  File "/kaggle/working/pa2/pa2/stage.py", line 77, in task
+    fn()
+    ~~^^
+  File "/kaggle/working/pa2/pa2/stage.py", line 171, in sft_gen
+    need(
+    ~~~~^
+        run([PY, "-m", "pa2.generate", "--model", "outputs/sft/best", "--generator", "qwen2.5-0.5b-sft",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        "sft generation",
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/kaggle/working/pa2/pa2/stage.py", line 103, in need
+    raise RuntimeError(f"{what} exited with code {rc}")
+RuntimeError: sft generation exited with code 1
+
+--- log tail ---
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'outputs/sft/best'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/kaggle/working/pa2/pa2/generate.py", line 115, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/pa2/pa2/generate.py", line 87, in main
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/tokenization_auto.py", line 1089, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/tokenization_auto.py", line 921, in get_tokenizer_config
+    resolved_config_file = cached_file(
+        pretrained_model_name_or_path,
+    ...<12 lines>...
+        _commit_hash=commit_hash,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 322, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 532, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision, repo_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 143, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(
+        path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision, repo_type=repo_type
+    )
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'outputs/sft/best'. Use `repo_type` argument if needed.

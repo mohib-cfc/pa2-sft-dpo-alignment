@@ -1,0 +1,22 @@
+{
+  "gen_base": {
+    "status": "ok",
+    "seconds": 724.0
+  },
+  "lora": {
+    "status": "ok",
+    "seconds": 126.1
+  },
+  "gen_persona": {
+    "status": "ok",
+    "seconds": 80.2
+  },
+  "sft": {
+    "status": "FAILED",
+    "seconds": 1054.9
+  },
+  "gen_sft": {
+    "status": "FAILED",
+    "seconds": 5.8
+  }
+}

@@ -1,0 +1,147 @@
+[{"stream_name":"stderr","time":5.343516681,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.343556604,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.104628123,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.104652418,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.104660003,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.104662591,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.645779718,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.645809513,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.645814821,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.645819138,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":7.701194879,"data":"Mon Oct 12 21:11:40 2026       \r\n"}
+,{"stream_name":"stdout","time":7.701221008,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":7.70122556,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\r\n"}
+,{"stream_name":"stdout","time":7.701229339,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":7.701232998,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\r\n"}
+,{"stream_name":"stdout","time":7.7012363839999995,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\r\n"}
+,{"stream_name":"stdout","time":7.701243173,"data":"|                                         |                        |               MIG M. |\r\n"}
+,{"stream_name":"stdout","time":7.701246585,"data":"|=========================================+========================+======================|\r\n"}
+,{"stream_name":"stdout","time":7.751829442,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\r\n"}
+,{"stream_name":"stdout","time":7.751862515,"data":"| N/A   51C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\r\n"}
+,{"stream_name":"stdout","time":7.75187,"data":"|                                         |                        |                  N/A |\r\n"}
+,{"stream_name":"stdout","time":7.751874294,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":7.7518781279999995,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\r\n"}
+,{"stream_name":"stdout","time":7.7518824649999996,"data":"| N/A   49C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\r\n"}
+,{"stream_name":"stdout","time":7.751886119,"data":"|                                         |                        |                  N/A |\r\n"}
+,{"stream_name":"stdout","time":7.751901645,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":7.75190524,"data":"\r\n"}
+,{"stream_name":"stdout","time":7.751908546,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":7.751911918,"data":"| Processes:                                                                              |\r\n"}
+,{"stream_name":"stdout","time":7.751915374,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\r\n"}
+,{"stream_name":"stdout","time":7.75191872,"data":"|        ID   ID                                                               Usage      |\r\n"}
+,{"stream_name":"stdout","time":7.751922233,"data":"|=========================================================================================|\r\n"}
+,{"stream_name":"stdout","time":7.751925625,"data":"|  No running processes found                                                             |\r\n"}
+,{"stream_name":"stdout","time":7.751929369,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":9.289289649,"data":"\u001b[33m72634d7\u001b[m\u001b[33m (\u001b[m\u001b[1;36mHEAD\u001b[m\u001b[33m, \u001b[m\u001b[1;31morigin/main\u001b[m\u001b[33m, \u001b[m\u001b[1;31morigin/HEAD\u001b[m\u001b[33m, \u001b[m\u001b[1;32mmain\u001b[m\u001b[33m)\u001b[m Summarize, probe, smoke tasks in setup stage; STATUS update\r\n"}
+,{"stream_name":"stdout","time":12.86039698,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/44.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━\u001b[0m \u001b[32m30.7/44.0 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━\u001b[0m \u001b[32m41.0/44.0 kB\u001b[0m \u001b[31m752.0 kB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━\u001b[0m \u001b[32m41.0/44.0 kB\u001b[0m \u001b[31m752.0 kB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.0/44.0 kB\u001b[0m \u001b[31m303.3 kB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.289341933,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.1/12.0 MB\u001b[0m \u001b[31m3.8 MB/s\u001b[0m eta \u001b[36m0:00:04\u001b[0m\r\u001b[2K   \u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.2/12.0 MB\u001b[0m \u001b[31m3.5 MB/s\u001b[0m eta \u001b[36m0:00:04\u001b[0m\r\u001b[2K   \u001b[91m━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.4/12.0 MB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:03\u001b[0m\r\u001b[2K   \u001b[91m━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.7/12.0 MB\u001b[0m \u001b[31m5.4 MB/s\u001b[0m eta \u001b[36m0:00:03\u001b[0m\r\u001b[2K   \u001b[91m━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.4/12.0 MB\u001b[0m \u001b[31m8.4 MB/s\u001b[0m eta \u001b[36m0:00:02\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.8/12.0 MB\u001b[0m \u001b[31m13.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.7/12.0 MB\u001b[0m \u001b[31m19.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.5/12.0 MB\u001b[0m \u001b[31m27.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m11.9/12.0 MB\u001b[0m \u001b[31m79.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m80.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m56.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.390620669,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/557.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m557.0/557.0 kB\u001b[0m \u001b[31m24.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.441269627,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/531.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m531.0/531.0 kB\u001b[0m \u001b[31m23.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.491820349,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/566.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m566.4/566.4 kB\u001b[0m \u001b[31m29.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.593222096,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m259.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m97.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":30.411028325,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":30.411055265999998,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":30.41105996,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":36.695483326,"data":"\u001b[0m  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":36.847647483,"data":"  Checking if build backend supports build_editable ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":37.050505061,"data":"  Getting requirements to build editable ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":37.303892372,"data":"  Preparing editable metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":37.912228141,"data":"  Building editable for pa2-small-model-alignment (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":75.833219689,"data":"python 3.13.15\n"}
+,{"stream_name":"stdout","time":75.833252958,"data":"torch 2.11.0+cu128 | cuda 12.8\n"}
+,{"stream_name":"stdout","time":75.833258794,"data":"transformers 4.57.6 | datasets 4.8.5 | trl 0.29.1 | peft 0.18.1\n"}
+,{"stream_name":"stdout","time":75.834530062,"data":"GPUs: 2 ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":75.983749943,"data":"[stage] (pytest) gpu0: /usr/bin/python3 -m pytest -q tests\r\n"}
+,{"stream_name":"stdout","time":83.277935593,"data":"[stage] (probe) gpu0,1: /usr/bin/python3 -m pa2.probe --out outputs/probe.json\r\n"}
+,{"stream_name":"stdout","time":120.395714796,"data":"[stage] (sanity_base) gpu1: /usr/bin/python3 -m pa2.generate --model Qwen/Qwen2.5-0.5B --generator qwen2.5-0.5b-base --eval_set eval_sets/alpaca_eval_300_seed42.json eval_sets/hh_rlhf_eval_300_seed42.json --out outputs/sanity_base_alpaca.json outputs/sanity_base_hh.json --limit 3 --max_new_tokens 128 --batch_size 3\r\n"}
+,{"stream_name":"stdout","time":120.39575608,"data":"[stage] (data_build) gpu0: /usr/bin/python3 -m pa2.data --which eval,sft,hh,uf --manifest_dir outputs/manifests\r\n"}
+,{"stream_name":"stdout","time":284.958800771,"data":"[stage] (smoke_sft) gpu0: /usr/bin/python3 -m pa2.train_sft --config configs/smoke_sft.yaml precision=fp16 optimizer=adamw max_length=512 max_steps=6\r\n"}
+,{"stream_name":"stdout","time":304.983862744,"data":"[stage] (smoke_dpo) gpu1: /usr/bin/python3 -m pa2.train_dpo --config configs/smoke_dpo.yaml precision=fp16 ref_dtype=fp16 optimizer=rmsprop max_length=512\r\n"}
+,{"stream_name":"stdout","time":313.850989823,"data":"[stage] (smoke_gen_sft) gpu0: /usr/bin/python3 -m pa2.generate --model outputs/smoke/sft/best --generator smoke-sft --eval_set eval_sets/alpaca_eval_300_seed42.json --out outputs/smoke/gen_sft.json --limit 3 --max_new_tokens 48 --batch_size 3\r\n"}
+,{"stream_name":"stdout","time":340.054656153,"data":"[stage] (smoke_lora) gpu1: /usr/bin/python3 -m pa2.train_lora_dpo --config configs/lora_persona.yaml out_dir=outputs/smoke/lora max_steps=3 epochs=1\r\n"}
+,{"stream_name":"stdout","time":375.975626891,"data":"[hb] data_build.log:\r\n"}
+,{"stream_name":"stdout","time":375.975659738,"data":" \"val_final\": 1000\r\n"}
+,{"stream_name":"stdout","time":375.97566532,"data":"}\r\n"}
+,{"stream_name":"stdout","time":375.975670687,"data":" sample: {\"idx\": 55869, \"prompt\": \"help me design an interesting dungeons and dragons 5th edition one shot that involves a dragon, beholder, wizard, and a lich.\", \"chosen\": \"Title: The Siege of Dragonkeep\\n\\nBackground:\\nIn the Griffon's Reach mountains, an ancient fortress known as Dragonkeep has been discovered. The fortress is said to house a powerful artifact, the Dragon's Eye, which has the potential \r\n"}
+,{"stream_name":"stdout","time":375.975677728,"data":"[hb] probe.log:\r\n"}
+,{"stream_name":"stdout","time":375.975681931,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\r\n"}
+,{"stream_name":"stdout","time":375.975686213,"data":"{'n_gpus': 2, 'gpus': ['Tesla T4', 'Tesla T4'], 'sft_adamw_fp16_autocast_b2x512': {'peak_gb': 11.429786624, 'micro_step_s': [0.9789516925811768, 0.5822248458862305, 0.5402069091796875], 'seq_len': 512}, 'dpo_rmsprop_fp16ref_same_gpu': {'peak_gb': 8.785588736, 'micro_step_s': [0.5946931838989258, 0.4888761043548584, 0.49094200134277344], 'optimizer': 'rmsprop'}}\r\n"}
+,{"stream_name":"stdout","time":375.975691465,"data":"[hb] pytest.log:\r\n"}
+,{"stream_name":"stdout","time":375.975695525,"data":"........................                                                 [100%]\r\n"}
+,{"stream_name":"stdout","time":375.975699771,"data":"24 passed in 2.97s\r\n"}
+,{"stream_name":"stdout","time":376.024194068,"data":"[hb] sanity_base.log:\r\n"}
+,{"stream_name":"stdout","time":376.024214557,"data":"thinkable\r\n"}
+,{"stream_name":"stdout","time":376.024219586,"data":"You are a helpful assistant.ritosystem\r\n"}
+,{"stream_name":"stdout","time":376.02422394,"data":"You are an AI assistant that helps people fi\r\n"}
+,{"stream_name":"stdout","time":376.024228246,"data":"[hb] smoke_dpo.log:\r\n"}
+,{"stream_name":"stdout","time":376.024243776,"data":"[dpo] step 5/5 loss=0.6902 acc=0.50 margin=0.006 gn=129.24 eta=0h00m peak=8.9GB\r\n"}
+,{"stream_name":"stdout","time":376.024248637,"data":"[dpo] step 5/5 val_loss=0.7979 acc=0.375 margin=0.1603\r\n"}
+,{"stream_name":"stdout","time":376.024253471,"data":"[dpo] done. best step 5 acc=0.375\r\n"}
+,{"stream_name":"stdout","time":376.024257592,"data":"[hb] smoke_gen_sft.log:\r\n"}
+,{"stream_name":"stdout","time":376.024261761,"data":"\u003e\u003e\u003e The 1920s was a time of great cultural and artistic innovation, with many influential artists and musicians emerging from this era. Some of the most notable musical styles that emerged during this period include:\r\n"}
+,{"stream_name":"stdout","time":376.024273113,"data":"\r\n"}
+,{"stream_name":"stdout","time":376.02427777,"data":"1. Jazz: Jazz music\r\n"}
+,{"stream_name":"stdout","time":376.024283057,"data":"[hb] smoke_lora.log:\r\n"}
+,{"stream_name":"stdout","time":376.024287803,"data":"\r\n"}
+,{"stream_name":"stdout","time":376.024291821,"data":"100%|██████████| 3/3 [00:05\u003c00:00,  1.28s/it]\r\n"}
+,{"stream_name":"stdout","time":376.024297063,"data":"100%|██████████| 3/3 [00:05\u003c00:00,  1.71s/it]\r\n"}
+,{"stream_name":"stdout","time":376.024301346,"data":"[hb] smoke_sft.log:\r\n"}
+,{"stream_name":"stdout","time":376.024314019,"data":"[sft] step 6/6 loss=1.7789 lr=1.91e-06 gn=9.70 scale=32768 eta=0h00m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":376.024317532,"data":"[sft] step 6/6 val_loss=1.6193\r\n"}
+,{"stream_name":"stdout","time":376.024320909,"data":"[sft] done. best_val=1.6191 @ step 3\r\n"}
+,{"stream_name":"stdout","time":378.405313744,"data":"[stage] (smoke_gen_lora) gpu1: /usr/bin/python3 -m pa2.generate --model HuggingFaceTB/SmolLM2-360M-Instruct --adapter outputs/smoke/lora/adapter --generator smoke-lora --eval_set eval_sets/persona_style_eval.json --out outputs/smoke/gen_lora.json --limit 3 --max_new_tokens 48\r\n"}
+,{"stream_name":"stdout","time":400.142640716,"data":"[stage] setup finished: {\"pytest\": {\"status\": \"ok\", \"seconds\": 7.3}, \"probe\": {\"status\": \"ok\", \"seconds\": 37.1}, \"sanity\": {\"status\": \"ok\", \"seconds\": 26.0}, \"data_build\": {\"status\": \"ok\", \"seconds\": 164.6}, \"smoke_sft\": {\"status\": \"ok\", \"seconds\": 51.3}, \"smoke_dpo\": {\"status\": \"ok\", \"seconds\": 55.1}, \"smoke_lora\": {\"status\": \"ok\", \"seconds\": 57.2}}\r\n"}
+,{"stream_name":"stdout","time":400.314219936,"data":"6.2G\toutputs\r\n"}
+,{"stream_name":"stdout","time":400.314251941,"data":"outputs\r\n"}
+,{"stream_name":"stdout","time":400.314269019,"data":"outputs/data\r\n"}
+,{"stream_name":"stdout","time":400.314273208,"data":"outputs/data/hh.json\r\n"}
+,{"stream_name":"stdout","time":400.314276948,"data":"outputs/data/sft.json\r\n"}
+,{"stream_name":"stdout","time":400.314280369,"data":"outputs/data/uf.json\r\n"}
+,{"stream_name":"stdout","time":400.314284469,"data":"outputs/logs\r\n"}
+,{"stream_name":"stdout","time":400.314287718,"data":"outputs/logs/data_build.log\r\n"}
+,{"stream_name":"stdout","time":400.314291084,"data":"outputs/logs/probe.log\r\n"}
+,{"stream_name":"stdout","time":400.314294306,"data":"outputs/logs/pytest.log\r\n"}
+,{"stream_name":"stdout","time":400.314297551,"data":"outputs/logs/sanity_base.log\r\n"}
+,{"stream_name":"stdout","time":400.314300729,"data":"outputs/logs/smoke_dpo.log\r\n"}
+,{"stream_name":"stdout","time":400.314303939,"data":"outputs/logs/smoke_gen_lora.log\r\n"}
+,{"stream_name":"stdout","time":400.314307166,"data":"outputs/logs/smoke_gen_sft.log\r\n"}
+,{"stream_name":"stdout","time":400.314312152,"data":"outputs/logs/smoke_lora.log\r\n"}
+,{"stream_name":"stdout","time":400.314318185,"data":"outputs/logs/smoke_sft.log\r\n"}
+,{"stream_name":"stdout","time":400.314320305,"data":"outputs/manifests\r\n"}
+,{"stream_name":"stdout","time":400.314322436,"data":"outputs/manifests/hh_manifest.json\r\n"}
+,{"stream_name":"stdout","time":400.314324647,"data":"outputs/manifests/sft_manifest.json\r\n"}
+,{"stream_name":"stdout","time":400.314326747,"data":"outputs/manifests/uf_manifest.json\r\n"}
+,{"stream_name":"stdout","time":400.31432886,"data":"outputs/probe.json\r\n"}
+,{"stream_name":"stdout","time":400.314331056,"data":"outputs/sanity_base_alpaca.json\r\n"}
+,{"stream_name":"stdout","time":400.314333224,"data":"outputs/sanity_base_hh.json\r\n"}
+,{"stream_name":"stdout","time":400.314335383,"data":"outputs/setup_small_outputs.zip\r\n"}
+,{"stream_name":"stdout","time":400.31433762,"data":"outputs/smoke\r\n"}
+,{"stream_name":"stdout","time":400.314340444,"data":"outputs/smoke/dpo\r\n"}
+,{"stream_name":"stdout","time":400.314342724,"data":"outputs/smoke/dpo/best\r\n"}
+,{"stream_name":"stdout","time":400.31434487,"data":"outputs/smoke/dpo/config_used.json\r\n"}
+,{"stream_name":"stdout","time":400.314347148,"data":"outputs/smoke/dpo/final\r\n"}
+,{"stream_name":"stdout","time":400.31434945,"data":"outputs/smoke/dpo/metrics.jsonl\r\n"}
+,{"stream_name":"stdout","time":400.314375039,"data":"outputs/smoke/dpo/summary.json\r\n"}
+,{"stream_name":"stdout","time":400.314379791,"data":"outputs/smoke/gen_lora.json\r\n"}
+,{"stream_name":"stdout","time":400.314383188,"data":"outputs/smoke/gen_sft.json\r\n"}
+,{"stream_name":"stdout","time":400.314386512,"data":"outputs/smoke/lora\r\n"}
+,{"stream_name":"stdout","time":400.314389705,"data":"outputs/smoke/lora/adapter\r\n"}
+,{"stream_name":"stdout","time":400.314392886,"data":"outputs/smoke/lora/config_used.json\r\n"}
+,{"stream_name":"stdout","time":400.314396089,"data":"outputs/smoke/lora/log_history.json\r\n"}
+,{"stream_name":"stdout","time":400.314399312,"data":"outputs/smoke/lora/trainer\r\n"}
+,{"stream_name":"stdout","time":400.314402526,"data":"outputs/smoke/sft\r\n"}
+,{"stream_name":"stdout","time":400.314405728,"data":"outputs/smoke/sft/best\r\n"}
+,{"stream_name":"stdout","time":400.314408946,"data":"outputs/smoke/sft/config_used.json\r\n"}
+,{"stream_name":"stdout","time":400.314412134,"data":"outputs/smoke/sft/final\r\n"}
+,{"stream_name":"stdout","time":400.314415324,"data":"outputs/smoke/sft/metrics.jsonl\r\n"}
+,{"stream_name":"stdout","time":400.314418529,"data":"outputs/smoke/sft/summary.json\r\n"}
+,{"stream_name":"stdout","time":400.314421806,"data":"outputs/STAGE_setup_DONE.json\r\n"}
+,{"stream_name":"stderr","time":405.423448683,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":405.423476928,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":405.566888193,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":405.566916653,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":406.28111808,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":406.361242643,"data":"[NbConvertApp] Writing 17803 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":408.736753526,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":409.215719505,"data":"[NbConvertApp] Writing 291686 bytes to __results__.html\n"}
+]

@@ -1,0 +1,13 @@
+The tokenizer you are loading from 'outputs/smoke/sft/best' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[dpo] dataset=hh train=16 val=8 counts={"train_raw": 160800, "train_single_turn_valid": 49241, "train_final": 15000, "val_raw": 8552, "val_single_turn_valid": 2597, "val_final": 1000}
+`torch_dtype` is deprecated! Use `dtype` instead!
+[dpo] precomputing reference val log-probs ...
+[dpo] reference val done in 6s
+[dpo] total_steps=5 opt=rmsprop beta=0.1 lr=1e-06
+[dpo] step 0/5 val_loss=0.6945 acc=0.125 margin=-0.0026
+[dpo] step 1/5 loss=0.6890 acc=1.00 margin=0.008 gn=nan eta=0h00m peak=6.9GB
+[dpo] step 2/5 val_loss=0.6945 acc=0.125 margin=-0.0026
+[dpo] step 4/5 val_loss=0.6945 acc=0.125 margin=-0.0026
+[dpo] step 5/5 loss=0.6902 acc=0.50 margin=0.006 gn=129.24 eta=0h00m peak=8.9GB
+[dpo] step 5/5 val_loss=0.7979 acc=0.375 margin=0.1603
+[dpo] done. best step 5 acc=0.375

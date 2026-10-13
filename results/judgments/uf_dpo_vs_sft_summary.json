@@ -1,0 +1,25 @@
+{
+  "n_pairs": 300,
+  "n_judged": 300,
+  "n_unknown": 0,
+  "n_missing": 0,
+  "wins": {
+    "qwen2.5-0.5b-dpo-uf": 124,
+    "qwen2.5-0.5b-sft": 104
+  },
+  "ties": 72,
+  "judge_model": "google/gemini-3-flash-preview",
+  "timestamp": "2026-10-13T02:18:03.053031+00:00",
+  "mode": "general",
+  "failed_batches": 0,
+  "retries": 0,
+  "pairs_path": "results/pairs/uf_dpo_vs_sft.jsonl",
+  "win_rate_ties_half": {
+    "qwen2.5-0.5b-dpo-uf": 0.5333333333333333,
+    "qwen2.5-0.5b-sft": 0.4666666666666667
+  },
+  "win_rate_excl_ties": {
+    "qwen2.5-0.5b-dpo-uf": 0.543859649122807,
+    "qwen2.5-0.5b-sft": 0.45614035087719296
+  }
+}

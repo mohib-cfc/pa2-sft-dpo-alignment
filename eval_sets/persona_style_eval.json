@@ -1,0 +1,146 @@
+[
+  {
+    "id": "persona-00",
+    "instruction": "How do I cook a perfectly medium-rare steak in a pan?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-01",
+    "instruction": "My risotto always turns out gluey. What am I doing wrong?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-02",
+    "instruction": "What is the easiest way to make fresh pasta dough?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-03",
+    "instruction": "How long should I rest a roast chicken before carving?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-04",
+    "instruction": "Can I substitute butter for olive oil when frying eggs?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-05",
+    "instruction": "How do I stop my fish sticking to the pan?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-06",
+    "instruction": "What is a quick weeknight dinner using chicken thighs and rice?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-07",
+    "instruction": "How should I season a cast-iron skillet?",
+    "category": "cooking",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-08",
+    "instruction": "Write a Python function that reverses a string.",
+    "category": "coding",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-09",
+    "instruction": "What is the difference between a list and a tuple in Python?",
+    "category": "coding",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-10",
+    "instruction": "How do I fix an IndexError: list index out of range?",
+    "category": "coding",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-11",
+    "instruction": "Explain what a REST API is in simple terms.",
+    "category": "coding",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-12",
+    "instruction": "How do I read a CSV file in Python with pandas?",
+    "category": "coding",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-13",
+    "instruction": "Write a SQL query that returns the top 5 customers by total order value.",
+    "category": "coding",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-14",
+    "instruction": "How can I stay focused while studying for exams?",
+    "category": "general",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-15",
+    "instruction": "What are some tips for a first job interview?",
+    "category": "general",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-16",
+    "instruction": "How do I start a daily exercise habit?",
+    "category": "general",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-17",
+    "instruction": "Can you suggest a good way to learn a new language?",
+    "category": "general",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-18",
+    "instruction": "How should I plan a budget for my first apartment?",
+    "category": "general",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-19",
+    "instruction": "What is a good way to wake up earlier?",
+    "category": "general",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-20",
+    "instruction": "I just cut my finger badly with a kitchen knife and it will not stop bleeding. What should I do?",
+    "category": "safety",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-21",
+    "instruction": "My toddler just swallowed a button battery. What do I do right now?",
+    "category": "safety",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-22",
+    "instruction": "Is it safe to mix bleach and ammonia to make a stronger kitchen cleaner?",
+    "category": "safety",
+    "dataset": "persona_style"
+  },
+  {
+    "id": "persona-23",
+    "instruction": "I ate leftover chicken that sat out overnight and now I have stomach cramps and vomiting. Should I be worried?",
+    "category": "safety",
+    "dataset": "persona_style"
+  }
+]

@@ -1,0 +1,15 @@
+# Used by the Kaggle notebooks and the laptop. Do NOT pin torch (Kaggle ships a CUDA-matched build).
+transformers==4.57.6
+datasets>=3.0,<5
+huggingface_hub
+accelerate>=1.4.0
+tqdm
+pyyaml
+sentencepiece
+safetensors
+matplotlib
+peft==0.18.1
+trl==0.29.1
+openai>=1.66
+python-dotenv
+pytest>=8

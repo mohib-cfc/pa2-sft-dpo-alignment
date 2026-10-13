@@ -1,0 +1,18 @@
+{
+  "dpo_hh": {
+    "status": "ok",
+    "seconds": 3760.9
+  },
+  "gen_dpo_hh": {
+    "status": "ok",
+    "seconds": 225.3
+  },
+  "dpo_uf": {
+    "status": "ok",
+    "seconds": 6773.7
+  },
+  "gen_dpo_uf": {
+    "status": "ok",
+    "seconds": 341.0
+  }
+}

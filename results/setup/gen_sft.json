@@ -1,0 +1,23 @@
+[
+  {
+    "id": "alpaca-42-0000",
+    "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+    "output": "The following are some notable actors who began their careers on Broadway:\n\n1. Tony Bennett - He was one of the first African American actors to appear on Broadway, playing in \"A Night at the Opera\" and \"The Phantom of the Opera",
+    "generator": "smoke-sft",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-42-0002",
+    "instruction": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+    "output": "Kickball is a team sport where two teams of four players each try to score points by kicking a ball into their opponent's goal. The ball must be kicked from behind the net (a small wall) on the ground or in front of",
+    "generator": "smoke-sft",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-42-0003",
+    "instruction": "What is some cool music from the 1920s?",
+    "output": "The 1920s was a time of great cultural and artistic innovation, with many influential artists and musicians emerging from this era. Some of the most notable musical styles that emerged during this period include:\n\n1. Jazz: Jazz music",
+    "generator": "smoke-sft",
+    "dataset": "alpaca_eval"
+  }
+]

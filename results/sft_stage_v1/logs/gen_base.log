@@ -1,0 +1,41 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+[gen] qwen2.5-0.5b-base: 16/300
+[gen] qwen2.5-0.5b-base: 32/300
+[gen] qwen2.5-0.5b-base: 48/300
+[gen] qwen2.5-0.5b-base: 64/300
+[gen] qwen2.5-0.5b-base: 80/300
+[gen] qwen2.5-0.5b-base: 96/300
+[gen] qwen2.5-0.5b-base: 112/300
+[gen] qwen2.5-0.5b-base: 128/300
+[gen] qwen2.5-0.5b-base: 144/300
+[gen] qwen2.5-0.5b-base: 160/300
+[gen] qwen2.5-0.5b-base: 176/300
+[gen] qwen2.5-0.5b-base: 192/300
+[gen] qwen2.5-0.5b-base: 208/300
+[gen] qwen2.5-0.5b-base: 224/300
+[gen] qwen2.5-0.5b-base: 240/300
+[gen] qwen2.5-0.5b-base: 256/300
+[gen] qwen2.5-0.5b-base: 272/300
+[gen] qwen2.5-0.5b-base: 288/300
+[gen] qwen2.5-0.5b-base: 300/300
+[gen] wrote outputs/generations/base_alpaca.json (300 rows, 345s)
+[gen] qwen2.5-0.5b-base: 16/300
+[gen] qwen2.5-0.5b-base: 32/300
+[gen] qwen2.5-0.5b-base: 48/300
+[gen] qwen2.5-0.5b-base: 64/300
+[gen] qwen2.5-0.5b-base: 80/300
+[gen] qwen2.5-0.5b-base: 96/300
+[gen] qwen2.5-0.5b-base: 112/300
+[gen] qwen2.5-0.5b-base: 128/300
+[gen] qwen2.5-0.5b-base: 144/300
+[gen] qwen2.5-0.5b-base: 160/300
+[gen] qwen2.5-0.5b-base: 176/300
+[gen] qwen2.5-0.5b-base: 192/300
+[gen] qwen2.5-0.5b-base: 208/300
+[gen] qwen2.5-0.5b-base: 224/300
+[gen] qwen2.5-0.5b-base: 240/300
+[gen] qwen2.5-0.5b-base: 256/300
+[gen] qwen2.5-0.5b-base: 272/300
+[gen] qwen2.5-0.5b-base: 288/300
+[gen] qwen2.5-0.5b-base: 300/300
+[gen] wrote outputs/generations/base_hh.json (300 rows, 351s)

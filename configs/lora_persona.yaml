@@ -1,0 +1,16 @@
+model: HuggingFaceTB/SmolLM2-360M-Instruct
+data_path: data/persona_lora/ramsay_style_preferences.json
+out_dir: outputs/lora_persona
+beta: 0.1
+lr: 5.0e-5
+epochs: 3
+per_device_batch: 4
+grad_accum: 2
+max_length: 512
+max_prompt_length: 256
+warmup_ratio: 0.1
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+precision: fp16
+seed: 42

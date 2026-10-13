@@ -1,0 +1,13 @@
+out_dir: outputs/smoke/sft
+cache_dir: outputs/data
+max_length: 256
+per_device_batch: 2
+grad_accum: 2
+max_train_examples: 64
+max_val_examples: 16
+max_steps: 6
+precision: bf16
+optimizer: rmsprop
+val_every: 3
+val_batch: 4
+log_every: 1

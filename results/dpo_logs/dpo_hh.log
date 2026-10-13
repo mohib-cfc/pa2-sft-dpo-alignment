@@ -1,0 +1,115 @@
+The tokenizer you are loading from '/kaggle/input/notebooks/mohibwaqar/pa2-sft/pa2/outputs/sft/best' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Generating train split:   0%|          | 0/160800 [00:00<?, ? examples/s]Generating train split:   5%|▍         | 7672/160800 [00:00<00:02, 54572.54 examples/s]Generating train split:  10%|▉         | 15358/160800 [00:00<00:02, 51239.20 examples/s]Generating train split:  14%|█▍        | 23053/160800 [00:00<00:02, 50794.16 examples/s]Generating train split:  19%|█▉        | 30676/160800 [00:00<00:02, 54225.88 examples/s]Generating train split:  24%|██▍       | 38351/160800 [00:00<00:02, 57174.74 examples/s]Generating train split:  31%|███       | 49138/160800 [00:00<00:01, 56694.60 examples/s]Generating train split:  35%|███▍      | 55792/160800 [00:01<00:01, 53909.77 examples/s]Generating train split:  39%|███▉      | 62408/160800 [00:01<00:01, 52900.93 examples/s]Generating train split:  43%|████▎     | 69078/160800 [00:01<00:01, 49158.83 examples/s]Generating train split:  47%|████▋     | 75820/160800 [00:01<00:01, 51908.95 examples/s]Generating train split:  54%|█████▎    | 86372/160800 [00:01<00:01, 58439.69 examples/s]Generating train split:  59%|█████▉    | 94721/160800 [00:01<00:01, 45949.25 examples/s]Generating train split:  62%|██████▏   | 100249/160800 [00:02<00:01, 35364.71 examples/s]Generating train split:  66%|██████▌   | 105939/160800 [00:02<00:01, 30214.32 examples/s]Generating train split:  71%|███████   | 113512/160800 [00:02<00:01, 30480.81 examples/s]Generating train split:  74%|███████▍  | 118702/160800 [00:02<00:01, 31476.30 examples/s]Generating train split:  77%|███████▋  | 123909/160800 [00:02<00:01, 32948.88 examples/s]Generating train split:  80%|████████  | 129176/160800 [00:03<00:00, 35570.80 examples/s]Generating train split:  84%|████████▎ | 134358/160800 [00:03<00:00, 36822.66 examples/s]Generating train split:  87%|████████▋ | 139545/160800 [00:03<00:00, 36741.95 examples/s]Generating train split:  90%|████████▉ | 144714/160800 [00:03<00:00, 36978.06 examples/s]Generating train split:  93%|█████████▎| 149906/160800 [00:03<00:00, 37103.41 examples/s]Generating train split:  96%|█████████▋| 155034/160800 [00:03<00:00, 37231.15 examples/s]Generating train split: 100%|█████████▉| 160213/160800 [00:03<00:00, 38102.94 examples/s]Generating train split: 100%|██████████| 160800/160800 [00:03<00:00, 41442.66 examples/s]
+Generating test split:   0%|          | 0/8552 [00:00<?, ? examples/s]Generating test split:  68%|██████▊   | 5803/8552 [00:00<00:00, 42188.41 examples/s]Generating test split: 100%|██████████| 8552/8552 [00:00<00:00, 45107.30 examples/s]
+[dpo] dataset=hh train=15000 val=1000 counts={"train_raw": 160800, "train_single_turn_valid": 49241, "train_dropped_prompt_gt_256": 212, "train_after_prompt_filter": 49029, "train_final": 15000, "val_raw": 8552, "val_single_turn_valid": 2597, "val_dropped_prompt_gt_256": 12, "val_after_prompt_filter": 2585, "val_final": 1000}
+`torch_dtype` is deprecated! Use `dtype` instead!
+[dpo] precomputing reference val log-probs ...
+[dpo] reference val done in 35s
+[dpo] total_steps=469 opt=rmsprop beta=0.1 lr=1e-06
+[dpo] step 0/469 val_loss=0.6931 acc=0.497 margin=0.0000
+[dpo] step 1/469 loss=0.6933 acc=0.47 margin=-0.000 gn=43.15 eta=0h55m peak=10.2GB
+[dpo] step 5/469 loss=0.6288 acc=0.69 margin=0.184 gn=37.79 eta=0h52m peak=11.4GB
+[dpo] step 10/469 loss=0.6224 acc=0.69 margin=0.221 gn=36.48 eta=0h51m peak=11.8GB
+[dpo] step 15/469 loss=0.6958 acc=0.53 margin=0.072 gn=38.02 eta=0h50m peak=11.8GB
+[dpo] step 20/469 loss=0.6590 acc=0.66 margin=0.103 gn=41.17 eta=0h50m peak=11.8GB
+[dpo] step 25/469 loss=0.6800 acc=0.59 margin=0.102 gn=44.72 eta=0h49m peak=11.8GB
+[dpo] step 30/469 loss=0.7035 acc=0.50 margin=0.064 gn=48.32 eta=0h49m peak=11.8GB
+[dpo] step 35/469 loss=0.6147 acc=0.66 margin=0.216 gn=34.82 eta=0h48m peak=11.8GB
+[dpo] step 40/469 loss=0.6325 acc=0.59 margin=0.275 gn=37.79 eta=0h48m peak=11.8GB
+[dpo] step 45/469 loss=0.5540 acc=0.72 margin=0.384 gn=39.15 eta=0h47m peak=11.8GB
+[dpo] step 50/469 loss=0.6395 acc=0.53 margin=0.186 gn=45.31 eta=0h46m peak=11.8GB
+[dpo] step 50/469 val_loss=0.6783 acc=0.573 margin=0.1224
+[dpo] step 55/469 loss=0.8310 acc=0.44 margin=-0.200 gn=53.49 eta=0h52m peak=12.2GB
+[dpo] step 60/469 loss=0.6627 acc=0.59 margin=0.136 gn=42.48 eta=0h50m peak=12.2GB
+[dpo] step 65/469 loss=0.6690 acc=0.66 margin=0.162 gn=40.26 eta=0h49m peak=12.2GB
+[dpo] step 70/469 loss=0.6716 acc=0.59 margin=0.126 gn=47.98 eta=0h48m peak=12.2GB
+[dpo] step 75/469 loss=0.6194 acc=0.69 margin=0.239 gn=39.79 eta=0h48m peak=12.2GB
+[dpo] step 80/469 loss=0.6095 acc=0.69 margin=0.239 gn=35.84 eta=0h47m peak=12.2GB
+[dpo] step 85/469 loss=0.7058 acc=0.59 margin=0.057 gn=47.42 eta=0h46m peak=12.2GB
+[dpo] step 90/469 loss=0.6377 acc=0.69 margin=0.193 gn=44.97 eta=0h45m peak=12.2GB
+[dpo] step 95/469 loss=0.6310 acc=0.66 margin=0.238 gn=43.34 eta=0h45m peak=12.2GB
+[dpo] step 100/469 loss=0.6728 acc=0.59 margin=0.098 gn=44.96 eta=0h44m peak=12.2GB
+[dpo] step 100/469 val_loss=0.6672 acc=0.575 margin=0.1247
+[dpo] step 105/469 loss=0.6487 acc=0.62 margin=0.150 gn=36.64 eta=0h46m peak=12.2GB
+[dpo] step 110/469 loss=0.6542 acc=0.66 margin=0.208 gn=42.69 eta=0h45m peak=12.2GB
+[dpo] step 115/469 loss=0.6078 acc=0.75 margin=0.242 gn=37.16 eta=0h44m peak=12.2GB
+[dpo] step 120/469 loss=0.6754 acc=0.66 margin=0.085 gn=45.23 eta=0h43m peak=12.2GB
+[dpo] step 125/469 loss=0.7068 acc=0.53 margin=0.041 gn=39.76 eta=0h43m peak=12.2GB
+[dpo] step 130/469 loss=0.6373 acc=0.62 margin=0.160 gn=37.18 eta=0h42m peak=12.2GB
+[dpo] step 135/469 loss=0.5532 acc=0.69 margin=0.367 gn=33.36 eta=0h41m peak=12.2GB
+[dpo] step 140/469 loss=0.5514 acc=0.75 margin=0.414 gn=41.31 eta=0h40m peak=12.2GB
+[dpo] step 145/469 loss=0.5683 acc=0.72 margin=0.363 gn=34.71 eta=0h40m peak=12.6GB
+[dpo] step 150/469 loss=0.6741 acc=0.59 margin=0.149 gn=43.34 eta=0h39m peak=12.6GB
+[dpo] step 150/469 val_loss=0.6664 acc=0.579 margin=0.1573
+[dpo] step 155/469 loss=0.7090 acc=0.41 margin=0.052 gn=38.38 eta=0h40m peak=12.6GB
+[dpo] step 160/469 loss=0.6957 acc=0.56 margin=0.093 gn=42.26 eta=0h39m peak=12.6GB
+[dpo] step 165/469 loss=0.7102 acc=0.56 margin=0.044 gn=36.81 eta=0h38m peak=12.6GB
+[dpo] step 170/469 loss=0.5990 acc=0.66 margin=0.292 gn=37.65 eta=0h37m peak=12.6GB
+[dpo] step 175/469 loss=0.6284 acc=0.62 margin=0.216 gn=41.41 eta=0h37m peak=12.6GB
+[dpo] step 180/469 loss=0.6921 acc=0.50 margin=0.128 gn=38.39 eta=0h36m peak=12.6GB
+[dpo] step 185/469 loss=0.6155 acc=0.72 margin=0.246 gn=39.37 eta=0h35m peak=12.6GB
+[dpo] step 190/469 loss=0.6042 acc=0.62 margin=0.272 gn=37.83 eta=0h34m peak=12.6GB
+[dpo] step 195/469 loss=0.6211 acc=0.66 margin=0.239 gn=37.71 eta=0h34m peak=12.6GB
+[dpo] step 200/469 loss=0.6538 acc=0.56 margin=0.145 gn=41.21 eta=0h33m peak=12.6GB
+[dpo] step 200/469 val_loss=0.6614 acc=0.602 margin=0.1570
+[dpo] step 205/469 loss=0.5658 acc=0.75 margin=0.375 gn=39.36 eta=0h33m peak=12.6GB
+[dpo] step 210/469 loss=0.6528 acc=0.66 margin=0.199 gn=42.99 eta=0h33m peak=12.6GB
+[dpo] step 215/469 loss=0.6291 acc=0.59 margin=0.226 gn=37.40 eta=0h32m peak=12.6GB
+[dpo] step 220/469 loss=0.6361 acc=0.75 margin=0.209 gn=66.07 eta=0h31m peak=12.6GB
+[dpo] step 225/469 loss=0.5931 acc=0.72 margin=0.322 gn=36.87 eta=0h30m peak=12.6GB
+[dpo] step 230/469 loss=0.6033 acc=0.69 margin=0.299 gn=41.28 eta=0h30m peak=12.6GB
+[dpo] step 235/469 loss=0.5698 acc=0.72 margin=0.328 gn=37.31 eta=0h29m peak=12.6GB
+[dpo] step 240/469 loss=0.6326 acc=0.66 margin=0.192 gn=41.80 eta=0h28m peak=12.6GB
+[dpo] step 245/469 loss=0.7766 acc=0.44 margin=-0.074 gn=48.05 eta=0h28m peak=12.6GB
+[dpo] step 250/469 loss=0.7199 acc=0.50 margin=0.045 gn=38.72 eta=0h27m peak=12.6GB
+[dpo] step 250/469 val_loss=0.6589 acc=0.597 margin=0.1721
+[dpo] step 255/469 loss=0.6302 acc=0.66 margin=0.247 gn=44.73 eta=0h27m peak=12.6GB
+[dpo] step 260/469 loss=0.7327 acc=0.56 margin=-0.029 gn=48.67 eta=0h26m peak=12.6GB
+[dpo] step 265/469 loss=0.7316 acc=0.34 margin=-0.022 gn=40.37 eta=0h25m peak=12.6GB
+[dpo] step 270/469 loss=0.6049 acc=0.72 margin=0.235 gn=40.53 eta=0h25m peak=12.6GB
+[dpo] step 275/469 loss=0.5994 acc=0.69 margin=0.290 gn=44.63 eta=0h24m peak=12.6GB
+[dpo] step 280/469 loss=0.6206 acc=0.59 margin=0.235 gn=37.70 eta=0h23m peak=12.6GB
+[dpo] step 285/469 loss=0.6047 acc=0.62 margin=0.302 gn=43.75 eta=0h23m peak=12.6GB
+[dpo] step 290/469 loss=0.6290 acc=0.62 margin=0.247 gn=35.67 eta=0h22m peak=12.6GB
+[dpo] step 295/469 loss=0.5805 acc=0.75 margin=0.284 gn=36.85 eta=0h21m peak=12.6GB
+[dpo] step 300/469 loss=0.6656 acc=0.59 margin=0.194 gn=51.11 eta=0h21m peak=12.6GB
+[dpo] step 300/469 val_loss=0.6520 acc=0.604 margin=0.1891
+[dpo] step 305/469 loss=0.6028 acc=0.69 margin=0.284 gn=36.44 eta=0h20m peak=12.6GB
+[dpo] step 310/469 loss=0.7010 acc=0.56 margin=0.043 gn=44.18 eta=0h20m peak=12.6GB
+[dpo] step 315/469 loss=0.7048 acc=0.53 margin=0.037 gn=46.00 eta=0h19m peak=12.6GB
+[dpo] step 320/469 loss=0.6695 acc=0.56 margin=0.107 gn=48.84 eta=0h18m peak=12.6GB
+[dpo] step 325/469 loss=0.6228 acc=0.59 margin=0.235 gn=38.16 eta=0h18m peak=12.6GB
+[dpo] step 330/469 loss=0.6655 acc=0.59 margin=0.157 gn=41.78 eta=0h17m peak=12.6GB
+[dpo] step 335/469 loss=0.7238 acc=0.59 margin=0.047 gn=44.68 eta=0h16m peak=12.6GB
+[dpo] step 340/469 loss=0.6309 acc=0.72 margin=0.219 gn=42.00 eta=0h16m peak=12.6GB
+[dpo] step 345/469 loss=0.6163 acc=0.62 margin=0.244 gn=38.26 eta=0h15m peak=12.6GB
+[dpo] step 350/469 loss=0.5824 acc=0.72 margin=0.311 gn=45.14 eta=0h14m peak=12.6GB
+[dpo] step 350/469 val_loss=0.6540 acc=0.607 margin=0.1929
+[dpo] step 355/469 loss=0.6104 acc=0.69 margin=0.262 gn=44.18 eta=0h14m peak=12.6GB
+[dpo] step 360/469 loss=0.7077 acc=0.47 margin=0.089 gn=40.32 eta=0h13m peak=12.6GB
+[dpo] step 365/469 loss=0.6715 acc=0.62 margin=0.241 gn=44.93 eta=0h13m peak=12.6GB
+[dpo] step 370/469 loss=0.7079 acc=0.53 margin=0.062 gn=42.02 eta=0h12m peak=12.6GB
+[dpo] step 375/469 loss=0.6206 acc=0.69 margin=0.330 gn=43.76 eta=0h11m peak=12.6GB
+[dpo] step 380/469 loss=0.6873 acc=0.53 margin=0.141 gn=45.57 eta=0h11m peak=12.6GB
+[dpo] step 385/469 loss=0.5955 acc=0.78 margin=0.324 gn=43.81 eta=0h10m peak=12.6GB
+[dpo] step 390/469 loss=0.5605 acc=0.69 margin=0.406 gn=39.47 eta=0h09m peak=12.6GB
+[dpo] step 395/469 loss=0.6336 acc=0.66 margin=0.212 gn=40.12 eta=0h09m peak=12.6GB
+[dpo] step 400/469 loss=0.5963 acc=0.66 margin=0.335 gn=43.11 eta=0h08m peak=12.6GB
+[dpo] step 400/469 val_loss=0.6531 acc=0.612 margin=0.1949
+[dpo] step 405/469 loss=0.6981 acc=0.59 margin=0.078 gn=44.87 eta=0h08m peak=12.6GB
+[dpo] step 410/469 loss=0.7369 acc=0.62 margin=0.072 gn=52.37 eta=0h07m peak=12.6GB
+[dpo] step 415/469 loss=0.6968 acc=0.59 margin=0.116 gn=43.26 eta=0h06m peak=12.6GB
+[dpo] step 420/469 loss=0.5650 acc=0.66 margin=0.386 gn=31.42 eta=0h06m peak=12.6GB
+[dpo] step 425/469 loss=0.6254 acc=0.53 margin=0.263 gn=45.13 eta=0h05m peak=12.6GB
+[dpo] step 430/469 loss=0.5990 acc=0.66 margin=0.331 gn=38.01 eta=0h04m peak=12.6GB
+[dpo] step 435/469 loss=0.6395 acc=0.59 margin=0.191 gn=46.42 eta=0h04m peak=12.6GB
+[dpo] step 440/469 loss=0.7337 acc=0.47 margin=0.015 gn=43.55 eta=0h03m peak=12.6GB
+[dpo] step 445/469 loss=0.6368 acc=0.66 margin=0.252 gn=40.38 eta=0h03m peak=12.6GB
+[dpo] step 450/469 loss=0.6204 acc=0.59 margin=0.300 gn=37.69 eta=0h02m peak=12.6GB
+[dpo] step 450/469 val_loss=0.6517 acc=0.619 margin=0.2014
+[dpo] step 455/469 loss=0.7340 acc=0.38 margin=0.046 gn=46.66 eta=0h01m peak=12.6GB
+[dpo] step 460/469 loss=0.6176 acc=0.62 margin=0.242 gn=40.77 eta=0h01m peak=12.6GB
+[dpo] step 465/469 loss=0.6314 acc=0.62 margin=0.248 gn=37.77 eta=0h00m peak=12.6GB
+[dpo] step 469/469 loss=0.6820 acc=0.67 margin=0.153 gn=47.06 eta=0h00m peak=12.6GB
+[dpo] step 469/469 val_loss=0.6496 acc=0.628 margin=0.2087
+[dpo] done. best step 469 acc=0.628

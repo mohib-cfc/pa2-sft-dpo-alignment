@@ -1,0 +1,22 @@
+The tokenizer you are loading from 'outputs/dpo_hh/best' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+[gen] qwen2.5-0.5b-dpo-hh: 16/300
+[gen] qwen2.5-0.5b-dpo-hh: 32/300
+[gen] qwen2.5-0.5b-dpo-hh: 48/300
+[gen] qwen2.5-0.5b-dpo-hh: 64/300
+[gen] qwen2.5-0.5b-dpo-hh: 80/300
+[gen] qwen2.5-0.5b-dpo-hh: 96/300
+[gen] qwen2.5-0.5b-dpo-hh: 112/300
+[gen] qwen2.5-0.5b-dpo-hh: 128/300
+[gen] qwen2.5-0.5b-dpo-hh: 144/300
+[gen] qwen2.5-0.5b-dpo-hh: 160/300
+[gen] qwen2.5-0.5b-dpo-hh: 176/300
+[gen] qwen2.5-0.5b-dpo-hh: 192/300
+[gen] qwen2.5-0.5b-dpo-hh: 208/300
+[gen] qwen2.5-0.5b-dpo-hh: 224/300
+[gen] qwen2.5-0.5b-dpo-hh: 240/300
+[gen] qwen2.5-0.5b-dpo-hh: 256/300
+[gen] qwen2.5-0.5b-dpo-hh: 272/300
+[gen] qwen2.5-0.5b-dpo-hh: 288/300
+[gen] qwen2.5-0.5b-dpo-hh: 300/300
+[gen] wrote outputs/generations/dpo_hh_hh.json (300 rows, 210s)

@@ -1,0 +1,304 @@
+[{"stream_name":"stderr","time":7.625859132,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.625912662,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":8.697771028,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.697806973,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.697814228,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.69781905,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.404930663,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.404964371,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.40497015,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.404974396,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.719092886,"data":"Mon Oct 12 23:37:57 2026       \r\n"}
+,{"stream_name":"stdout","time":10.719124839,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":10.719130435,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\r\n"}
+,{"stream_name":"stdout","time":10.719135774,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":10.719141141,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\r\n"}
+,{"stream_name":"stdout","time":10.719146581,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\r\n"}
+,{"stream_name":"stdout","time":10.719152032,"data":"|                                         |                        |               MIG M. |\r\n"}
+,{"stream_name":"stdout","time":10.719157523,"data":"|=========================================+========================+======================|\r\n"}
+,{"stream_name":"stdout","time":10.770273445,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\r\n"}
+,{"stream_name":"stdout","time":10.7703043,"data":"| N/A   36C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\r\n"}
+,{"stream_name":"stdout","time":10.770326156,"data":"|                                         |                        |                  N/A |\r\n"}
+,{"stream_name":"stdout","time":10.77033151,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":10.770337051,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\r\n"}
+,{"stream_name":"stdout","time":10.770342661,"data":"| N/A   38C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\r\n"}
+,{"stream_name":"stdout","time":10.770348245,"data":"|                                         |                        |                  N/A |\r\n"}
+,{"stream_name":"stdout","time":10.770377188,"data":"+-----------------------------------------+------------------------+----------------------+\r\n"}
+,{"stream_name":"stdout","time":10.770382562,"data":"\r\n"}
+,{"stream_name":"stdout","time":10.770388032,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":10.770393485,"data":"| Processes:                                                                              |\r\n"}
+,{"stream_name":"stdout","time":10.770398931999999,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\r\n"}
+,{"stream_name":"stdout","time":10.770404382,"data":"|        ID   ID                                                               Usage      |\r\n"}
+,{"stream_name":"stdout","time":10.770409862,"data":"|=========================================================================================|\r\n"}
+,{"stream_name":"stdout","time":10.770415325,"data":"|  No running processes found                                                             |\r\n"}
+,{"stream_name":"stdout","time":10.770420943,"data":"+-----------------------------------------------------------------------------------------+\r\n"}
+,{"stream_name":"stdout","time":12.19968339,"data":"\u001b[33mb550e4d\u001b[m\u001b[33m (\u001b[m\u001b[1;36mHEAD\u001b[m\u001b[33m)\u001b[m SFT stage results (v2), STATUS\r\n"}
+,{"stream_name":"stdout","time":16.446754184,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/44.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.0/44.0 kB\u001b[0m \u001b[31m1.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.534891287,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.8/12.0 MB\u001b[0m \u001b[31m25.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.2/12.0 MB\u001b[0m \u001b[31m90.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m193.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m193.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m94.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.585806013,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/557.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m557.0/557.0 kB\u001b[0m \u001b[31m24.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.637460933,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/531.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m531.0/531.0 kB\u001b[0m \u001b[31m22.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.688438046,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/566.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m566.4/566.4 kB\u001b[0m \u001b[31m23.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.739205873,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m191.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m75.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":38.026378884,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":38.0264105,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":38.026416529,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":44.889545915,"data":"\u001b[0m  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":45.091211478,"data":"  Checking if build backend supports build_editable ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":45.397517212,"data":"  Getting requirements to build editable ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":45.652380821,"data":"  Preparing editable metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":46.413959624,"data":"  Building editable for pa2-small-model-alignment (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":97.069410659,"data":"python 3.13.15\n"}
+,{"stream_name":"stdout","time":97.069472831,"data":"torch 2.11.0+cu128 | cuda 12.8\n"}
+,{"stream_name":"stdout","time":97.069566526,"data":"transformers 4.57.6 | datasets 4.8.5 | trl 0.29.1 | peft 0.18.1\n"}
+,{"stream_name":"stdout","time":97.070670672,"data":"GPUs: 2 ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":97.486185728,"data":"[stage] SFT best = /kaggle/input/notebooks/mohibwaqar/pa2-sft/pa2/outputs/sft/best\r\n"}
+,{"stream_name":"stdout","time":97.486218096,"data":"[stage] SFT best = /kaggle/input/notebooks/mohibwaqar/pa2-sft/pa2/outputs/sft/best\r\n"}
+,{"stream_name":"stdout","time":97.48622346,"data":"[stage] (dpo_hh) gpu0: /usr/bin/python3 -m pa2.train_dpo --config configs/dpo_hh.yaml sft_model=/kaggle/input/notebooks/mohibwaqar/pa2-sft/pa2/outputs/sft/best\r\n"}
+,{"stream_name":"stdout","time":97.486228008,"data":"[stage] (dpo_uf) gpu1: /usr/bin/python3 -m pa2.train_dpo --config configs/dpo_uf.yaml sft_model=/kaggle/input/notebooks/mohibwaqar/pa2-sft/pa2/outputs/sft/best\r\n"}
+,{"stream_name":"stdout","time":397.279797131,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":397.279863055,"data":"[dpo] step 10/469 loss=0.6224 acc=0.69 margin=0.221 gn=36.48 eta=0h51m peak=11.8GB\r\n"}
+,{"stream_name":"stdout","time":397.279868455,"data":"[dpo] step 15/469 loss=0.6958 acc=0.53 margin=0.072 gn=38.02 eta=0h50m peak=11.8GB\r\n"}
+,{"stream_name":"stdout","time":397.279872134,"data":"[dpo] step 20/469 loss=0.6590 acc=0.66 margin=0.103 gn=41.17 eta=0h50m peak=11.8GB\r\n"}
+,{"stream_name":"stdout","time":397.279875696,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":397.279879188,"data":"[dpo] total_steps=469 opt=rmsprop beta=0.1 lr=1e-06\r\n"}
+,{"stream_name":"stdout","time":397.279882665,"data":"[dpo] step 0/469 val_loss=0.6930 acc=0.510 margin=0.0004\r\n"}
+,{"stream_name":"stdout","time":397.279886035,"data":"[dpo] step 1/469 loss=0.6932 acc=0.47 margin=-0.000 gn=58.68 eta=1h22m peak=10.7GB\r\n"}
+,{"stream_name":"stdout","time":697.267003963,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":697.267067214,"data":"[dpo] step 50/469 val_loss=0.6783 acc=0.573 margin=0.1224\r\n"}
+,{"stream_name":"stdout","time":697.26707475,"data":"[dpo] step 55/469 loss=0.8310 acc=0.44 margin=-0.200 gn=53.49 eta=0h52m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":697.267080042,"data":"[dpo] step 60/469 loss=0.6627 acc=0.59 margin=0.136 gn=42.48 eta=0h50m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":697.267085175,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":697.267089883,"data":"[dpo] step 15/469 loss=0.5007 acc=0.88 margin=0.513 gn=51.25 eta=1h26m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":697.267094825,"data":"[dpo] step 20/469 loss=0.6128 acc=0.66 margin=0.288 gn=56.74 eta=1h24m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":697.267099724,"data":"[dpo] step 25/469 loss=0.5712 acc=0.75 margin=0.402 gn=53.62 eta=1h24m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":997.265713596,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":997.265749544,"data":"[dpo] step 90/469 loss=0.6377 acc=0.69 margin=0.193 gn=44.97 eta=0h45m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":997.265755162,"data":"[dpo] step 95/469 loss=0.6310 acc=0.66 margin=0.238 gn=43.34 eta=0h45m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":997.265760065,"data":"[dpo] step 100/469 loss=0.6728 acc=0.59 margin=0.098 gn=44.96 eta=0h44m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":997.265764789,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":997.265769325,"data":"[dpo] step 40/469 loss=0.4906 acc=0.78 margin=0.687 gn=48.62 eta=1h22m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":997.265773995,"data":"[dpo] step 45/469 loss=0.4679 acc=0.81 margin=0.677 gn=50.16 eta=1h21m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":997.265778669,"data":"[dpo] step 50/469 loss=0.4637 acc=0.78 margin=0.848 gn=49.73 eta=1h20m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1297.265548849,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":1297.265598684,"data":"[dpo] step 130/469 loss=0.6373 acc=0.62 margin=0.160 gn=37.18 eta=0h42m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":1297.265605346,"data":"[dpo] step 135/469 loss=0.5532 acc=0.69 margin=0.367 gn=33.36 eta=0h41m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":1297.265609574,"data":"[dpo] step 140/469 loss=0.5514 acc=0.75 margin=0.414 gn=41.31 eta=0h40m peak=12.2GB\r\n"}
+,{"stream_name":"stdout","time":1297.265613541,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":1297.265617242,"data":"[dpo] step 60/469 loss=0.5298 acc=0.75 margin=0.574 gn=53.07 eta=1h30m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1297.265621138,"data":"[dpo] step 65/469 loss=0.4144 acc=0.88 margin=0.929 gn=46.81 eta=1h28m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1297.26562479,"data":"[dpo] step 70/469 loss=0.4483 acc=0.78 margin=0.927 gn=50.15 eta=1h27m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1597.266412912,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":1597.266454716,"data":"[dpo] step 165/469 loss=0.7102 acc=0.56 margin=0.044 gn=36.81 eta=0h38m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1597.266461751,"data":"[dpo] step 170/469 loss=0.5990 acc=0.66 margin=0.292 gn=37.65 eta=0h37m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1597.266466826,"data":"[dpo] step 175/469 loss=0.6284 acc=0.62 margin=0.216 gn=41.41 eta=0h37m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1597.266471354,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":1597.266475868,"data":"[dpo] step 85/469 loss=0.6614 acc=0.56 margin=0.295 gn=64.39 eta=1h22m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1597.266479996,"data":"[dpo] step 90/469 loss=0.4892 acc=0.81 margin=0.783 gn=51.51 eta=1h20m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1597.266484704,"data":"[dpo] step 95/469 loss=0.5127 acc=0.69 margin=0.612 gn=54.31 eta=1h19m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1897.262219708,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":1897.26227707,"data":"[dpo] step 205/469 loss=0.5658 acc=0.75 margin=0.375 gn=39.36 eta=0h33m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1897.262284135,"data":"[dpo] step 210/469 loss=0.6528 acc=0.66 margin=0.199 gn=42.99 eta=0h33m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1897.262289203,"data":"[dpo] step 215/469 loss=0.6291 acc=0.59 margin=0.226 gn=37.40 eta=0h32m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1897.262294237,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":1897.262299243,"data":"[dpo] step 100/469 val_loss=0.5760 acc=0.703 margin=0.5256\r\n"}
+,{"stream_name":"stdout","time":1897.262304096,"data":"[dpo] step 105/469 loss=0.5624 acc=0.69 margin=0.616 gn=61.04 eta=1h22m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":1897.262309025,"data":"[dpo] step 110/469 loss=0.6169 acc=0.72 margin=0.449 gn=61.23 eta=1h20m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2197.269471,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":2197.269514428,"data":"[dpo] step 250/469 loss=0.7199 acc=0.50 margin=0.045 gn=38.72 eta=0h27m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2197.26952102,"data":"[dpo] step 250/469 val_loss=0.6589 acc=0.597 margin=0.1721\r\n"}
+,{"stream_name":"stdout","time":2197.269525576,"data":"[dpo] step 255/469 loss=0.6302 acc=0.66 margin=0.247 gn=44.73 eta=0h27m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2197.269530205,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":2197.269534462,"data":"[dpo] step 125/469 loss=0.5613 acc=0.72 margin=0.608 gn=54.42 eta=1h16m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2197.269538884,"data":"[dpo] step 130/469 loss=0.5262 acc=0.75 margin=0.703 gn=50.84 eta=1h15m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2197.269553897,"data":"[dpo] step 135/469 loss=0.5665 acc=0.66 margin=0.630 gn=58.97 eta=1h13m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2497.287989676,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":2497.288069182,"data":"[dpo] step 285/469 loss=0.6047 acc=0.62 margin=0.302 gn=43.75 eta=0h23m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2497.288076179,"data":"[dpo] step 290/469 loss=0.6290 acc=0.62 margin=0.247 gn=35.67 eta=0h22m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2497.288081195,"data":"[dpo] step 295/469 loss=0.5805 acc=0.75 margin=0.284 gn=36.85 eta=0h21m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2497.288085948,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":2497.288090414,"data":"[dpo] step 150/469 loss=0.5893 acc=0.69 margin=0.880 gn=68.91 eta=1h09m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2497.2880948,"data":"[dpo] step 150/469 val_loss=0.5662 acc=0.713 margin=0.5816\r\n"}
+,{"stream_name":"stdout","time":2497.288119694,"data":"[dpo] step 155/469 loss=0.7457 acc=0.53 margin=0.068 gn=75.52 eta=1h11m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2797.287459777,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":2797.287554744,"data":"[dpo] step 325/469 loss=0.6228 acc=0.59 margin=0.235 gn=38.16 eta=0h18m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2797.28756204,"data":"[dpo] step 330/469 loss=0.6655 acc=0.59 margin=0.157 gn=41.78 eta=0h17m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2797.287567212,"data":"[dpo] step 335/469 loss=0.7238 acc=0.59 margin=0.047 gn=44.68 eta=0h16m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2797.287570772,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":2797.287573964,"data":"[dpo] step 170/469 loss=0.5181 acc=0.62 margin=0.660 gn=51.16 eta=1h07m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2797.287577179,"data":"[dpo] step 175/469 loss=0.5062 acc=0.81 margin=0.659 gn=46.21 eta=1h06m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":2797.28758049,"data":"[dpo] step 180/469 loss=0.5453 acc=0.72 margin=0.605 gn=48.99 eta=1h04m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3097.282798698,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":3097.282833621,"data":"[dpo] step 365/469 loss=0.6715 acc=0.62 margin=0.241 gn=44.93 eta=0h13m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3097.282839473,"data":"[dpo] step 370/469 loss=0.7079 acc=0.53 margin=0.062 gn=42.02 eta=0h12m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3097.282844201,"data":"[dpo] step 375/469 loss=0.6206 acc=0.69 margin=0.330 gn=43.76 eta=0h11m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3097.282848955,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":3097.282853417,"data":"[dpo] step 190/469 loss=0.6022 acc=0.69 margin=0.477 gn=66.25 eta=1h01m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3097.282857962,"data":"[dpo] step 195/469 loss=0.4798 acc=0.75 margin=0.814 gn=56.77 eta=1h00m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3097.28286263,"data":"[dpo] step 200/469 loss=0.4194 acc=0.78 margin=0.959 gn=48.13 eta=0h59m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3397.280242602,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":3397.280284224,"data":"[dpo] step 400/469 val_loss=0.6531 acc=0.612 margin=0.1949\r\n"}
+,{"stream_name":"stdout","time":3397.280291872,"data":"[dpo] step 405/469 loss=0.6981 acc=0.59 margin=0.078 gn=44.87 eta=0h08m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3397.280297821,"data":"[dpo] step 410/469 loss=0.7369 acc=0.62 margin=0.072 gn=52.37 eta=0h07m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3397.280324899,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":3397.280329446,"data":"[dpo] step 215/469 loss=0.5324 acc=0.72 margin=0.720 gn=51.11 eta=0h57m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3397.280333633,"data":"[dpo] step 220/469 loss=0.5780 acc=0.75 margin=0.633 gn=61.98 eta=0h56m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3397.280337668,"data":"[dpo] step 225/469 loss=0.4857 acc=0.81 margin=0.807 gn=52.45 eta=0h54m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3697.257412506,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":3697.257455671,"data":"[dpo] step 445/469 loss=0.6368 acc=0.66 margin=0.252 gn=40.38 eta=0h03m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3697.25746244,"data":"[dpo] step 450/469 loss=0.6204 acc=0.59 margin=0.300 gn=37.69 eta=0h02m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3697.257467508,"data":"[dpo] step 450/469 val_loss=0.6517 acc=0.619 margin=0.2014\r\n"}
+,{"stream_name":"stdout","time":3697.257471945,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":3697.257476271,"data":"[dpo] step 240/469 loss=0.5664 acc=0.72 margin=0.655 gn=54.27 eta=0h51m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3697.257480905,"data":"[dpo] step 245/469 loss=0.4574 acc=0.81 margin=0.886 gn=50.66 eta=0h49m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3697.257485595,"data":"[dpo] step 250/469 loss=0.7184 acc=0.62 margin=0.320 gn=66.23 eta=0h48m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3858.160855167,"data":"[stage] (gen_dpo_hh) gpu0: /usr/bin/python3 -m pa2.generate --model outputs/dpo_hh/best --generator qwen2.5-0.5b-dpo-hh --eval_set eval_sets/hh_rlhf_eval_300_seed42.json --out outputs/generations/dpo_hh_hh.json\r\n"}
+,{"stream_name":"stdout","time":3997.260439259,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":3997.260500065,"data":"[dpo] step 469/469 loss=0.6820 acc=0.67 margin=0.153 gn=47.06 eta=0h00m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3997.260508089,"data":"[dpo] step 469/469 val_loss=0.6496 acc=0.628 margin=0.2087\r\n"}
+,{"stream_name":"stdout","time":3997.260513192,"data":"[dpo] done. best step 469 acc=0.628\r\n"}
+,{"stream_name":"stdout","time":3997.260518222,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":3997.260523317,"data":"[dpo] step 255/469 loss=0.4524 acc=0.78 margin=1.164 gn=51.26 eta=0h48m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3997.260528348,"data":"[dpo] step 260/469 loss=0.4335 acc=0.81 margin=1.117 gn=46.46 eta=0h47m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3997.260533884,"data":"[dpo] step 265/469 loss=0.5648 acc=0.66 margin=0.466 gn=50.80 eta=0h46m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":3997.260538895,"data":"[hb] gen_dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":3997.260543808,"data":"[gen] qwen2.5-0.5b-dpo-hh: 160/300\r\n"}
+,{"stream_name":"stdout","time":3997.260548599,"data":"[gen] qwen2.5-0.5b-dpo-hh: 176/300\r\n"}
+,{"stream_name":"stdout","time":3997.260553799,"data":"[gen] qwen2.5-0.5b-dpo-hh: 192/300\r\n"}
+,{"stream_name":"stdout","time":4297.287639276,"data":"[hb] dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":4297.287725004,"data":"[dpo] step 469/469 loss=0.6820 acc=0.67 margin=0.153 gn=47.06 eta=0h00m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4297.287730136,"data":"[dpo] step 469/469 val_loss=0.6496 acc=0.628 margin=0.2087\r\n"}
+,{"stream_name":"stdout","time":4297.287733342,"data":"[dpo] done. best step 469 acc=0.628\r\n"}
+,{"stream_name":"stdout","time":4297.287736496,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":4297.287739458,"data":"[dpo] step 280/469 loss=0.6352 acc=0.56 margin=0.357 gn=66.44 eta=0h42m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4297.287751626,"data":"[dpo] step 285/469 loss=0.6403 acc=0.66 margin=0.528 gn=69.80 eta=0h41m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4297.287754202,"data":"[dpo] step 290/469 loss=0.5592 acc=0.72 margin=0.801 gn=63.68 eta=0h40m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4297.287756569,"data":"[hb] gen_dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":4297.287758846,"data":"[gen] qwen2.5-0.5b-dpo-hh: 288/300\r\n"}
+,{"stream_name":"stdout","time":4297.28776126,"data":"[gen] qwen2.5-0.5b-dpo-hh: 300/300\r\n"}
+,{"stream_name":"stdout","time":4297.287763675,"data":"[gen] wrote outputs/generations/dpo_hh_hh.json (300 rows, 210s)\r\n"}
+,{"stream_name":"stdout","time":4597.284477841,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":4597.284522785,"data":"[dpo] step 300/469 loss=0.5843 acc=0.69 margin=0.568 gn=64.04 eta=0h37m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4597.28453082,"data":"[dpo] step 300/469 val_loss=0.5509 acc=0.718 margin=0.6736\r\n"}
+,{"stream_name":"stdout","time":4597.28453602,"data":"[dpo] step 305/469 loss=0.7622 acc=0.62 margin=0.286 gn=75.67 eta=0h37m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4597.284541059,"data":"[hb] gen_dpo_hh.log:\r\n"}
+,{"stream_name":"stdout","time":4597.284545694,"data":"[gen] qwen2.5-0.5b-dpo-hh: 288/300\r\n"}
+,{"stream_name":"stdout","time":4597.284550542,"data":"[gen] qwen2.5-0.5b-dpo-hh: 300/300\r\n"}
+,{"stream_name":"stdout","time":4597.284555343,"data":"[gen] wrote outputs/generations/dpo_hh_hh.json (300 rows, 210s)\r\n"}
+,{"stream_name":"stdout","time":4897.293848982,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":4897.293889057,"data":"[dpo] step 325/469 loss=0.5764 acc=0.66 margin=0.582 gn=61.14 eta=0h32m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4897.293896555,"data":"[dpo] step 330/469 loss=0.6387 acc=0.62 margin=0.420 gn=62.82 eta=0h31m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":4897.293902595,"data":"[dpo] step 335/469 loss=0.6461 acc=0.62 margin=0.468 gn=63.44 eta=0h30m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5197.268956108,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":5197.268994952,"data":"[dpo] step 345/469 loss=0.6573 acc=0.56 margin=0.387 gn=61.90 eta=0h27m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5197.269001776,"data":"[dpo] step 350/469 loss=0.4849 acc=0.75 margin=0.972 gn=46.31 eta=0h26m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5197.269007184,"data":"[dpo] step 350/469 val_loss=0.5532 acc=0.716 margin=0.7047\r\n"}
+,{"stream_name":"stdout","time":5497.272684815,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":5497.272760857,"data":"[dpo] step 365/469 loss=0.5186 acc=0.72 margin=0.732 gn=50.32 eta=0h23m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5497.272766063,"data":"[dpo] step 370/469 loss=0.6025 acc=0.66 margin=0.601 gn=61.14 eta=0h22m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5497.272769741,"data":"[dpo] step 375/469 loss=0.4823 acc=0.81 margin=0.848 gn=56.54 eta=0h21m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5797.257085579,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":5797.257127229,"data":"[dpo] step 390/469 loss=0.6700 acc=0.62 margin=0.472 gn=62.85 eta=0h17m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5797.257134061,"data":"[dpo] step 395/469 loss=0.5715 acc=0.59 margin=0.614 gn=69.26 eta=0h16m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":5797.257139472,"data":"[dpo] step 400/469 loss=0.4555 acc=0.81 margin=0.914 gn=49.00 eta=0h15m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6097.260696972,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":6097.260743724,"data":"[dpo] step 405/469 loss=0.6773 acc=0.69 margin=0.378 gn=70.33 eta=0h14m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6097.260762197,"data":"[dpo] step 410/469 loss=0.6628 acc=0.62 margin=0.412 gn=63.84 eta=0h13m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6097.260768234,"data":"[dpo] step 415/469 loss=0.5131 acc=0.78 margin=0.697 gn=54.62 eta=0h12m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6397.253415737,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":6397.253457693,"data":"[dpo] step 435/469 loss=0.5112 acc=0.75 margin=0.604 gn=52.08 eta=0h07m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6397.253462061,"data":"[dpo] step 440/469 loss=0.6622 acc=0.66 margin=0.582 gn=62.61 eta=0h06m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6397.253465355,"data":"[dpo] step 445/469 loss=0.5618 acc=0.69 margin=0.548 gn=58.29 eta=0h05m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6697.266856327,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":6697.266911392,"data":"[dpo] step 450/469 val_loss=0.5397 acc=0.725 margin=0.6940\r\n"}
+,{"stream_name":"stdout","time":6697.266919658,"data":"[dpo] step 455/469 loss=0.5067 acc=0.72 margin=0.664 gn=52.31 eta=0h03m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6697.266925231,"data":"[dpo] step 460/469 loss=0.5118 acc=0.78 margin=0.692 gn=53.87 eta=0h02m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6870.945124259,"data":"[stage] (gen_dpo_uf) gpu1: /usr/bin/python3 -m pa2.generate --model outputs/dpo_uf/best --generator qwen2.5-0.5b-dpo-uf --eval_set eval_sets/alpaca_eval_300_seed42.json --out outputs/generations/dpo_uf_alpaca.json\r\n"}
+,{"stream_name":"stdout","time":6997.291588888,"data":"[hb] dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":6997.291625606,"data":"[dpo] step 469/469 loss=0.4129 acc=0.88 margin=1.166 gn=59.90 eta=0h00m peak=12.6GB\r\n"}
+,{"stream_name":"stdout","time":6997.291631817,"data":"[dpo] step 469/469 val_loss=0.5417 acc=0.719 margin=0.6978\r\n"}
+,{"stream_name":"stdout","time":6997.291637115,"data":"[dpo] done. best step 450 acc=0.725\r\n"}
+,{"stream_name":"stdout","time":6997.291642319,"data":"[hb] gen_dpo_uf.log:\r\n"}
+,{"stream_name":"stdout","time":6997.291680613,"data":"[gen] qwen2.5-0.5b-dpo-uf: 64/300\r\n"}
+,{"stream_name":"stdout","time":6997.291686764,"data":"[gen] qwen2.5-0.5b-dpo-uf: 80/300\r\n"}
+,{"stream_name":"stdout","time":6997.291692033,"data":"[gen] qwen2.5-0.5b-dpo-uf: 96/300\r\n"}
+,{"stream_name":"stdout","time":7214.968582619,"data":"[stage] dpo finished: {\"dpo_hh\": {\"status\": \"ok\", \"seconds\": 3760.9}, \"gen_dpo_hh\": {\"status\": \"ok\", \"seconds\": 225.3}, \"dpo_uf\": {\"status\": \"ok\", \"seconds\": 6773.7}, \"gen_dpo_uf\": {\"status\": \"ok\", \"seconds\": 341.0}}\r\n"}
+,{"stream_name":"stdout","time":7215.142878699,"data":"4.9G\toutputs\r\n"}
+,{"stream_name":"stdout","time":7215.142911219,"data":"outputs\r\n"}
+,{"stream_name":"stdout","time":7215.142916607,"data":"outputs/data\r\n"}
+,{"stream_name":"stdout","time":7215.142923304,"data":"outputs/data/hh.json\r\n"}
+,{"stream_name":"stdout","time":7215.142931241,"data":"outputs/data/uf.json\r\n"}
+,{"stream_name":"stdout","time":7215.142934189,"data":"outputs/dpo_hh\r\n"}
+,{"stream_name":"stdout","time":7215.142937184,"data":"outputs/dpo_hh/best\r\n"}
+,{"stream_name":"stdout","time":7215.142940311,"data":"outputs/dpo_hh/best/added_tokens.json\r\n"}
+,{"stream_name":"stdout","time":7215.142943589,"data":"outputs/dpo_hh/best/chat_template.jinja\r\n"}
+,{"stream_name":"stdout","time":7215.142946636,"data":"outputs/dpo_hh/best/config.json\r\n"}
+,{"stream_name":"stdout","time":7215.142949651,"data":"outputs/dpo_hh/best/generation_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.142952621,"data":"outputs/dpo_hh/best/merges.txt\r\n"}
+,{"stream_name":"stdout","time":7215.142965729,"data":"outputs/dpo_hh/best/model.safetensors\r\n"}
+,{"stream_name":"stdout","time":7215.142971971,"data":"outputs/dpo_hh/best/run_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.142974423,"data":"outputs/dpo_hh/best/special_tokens_map.json\r\n"}
+,{"stream_name":"stdout","time":7215.142976841,"data":"outputs/dpo_hh/best/tokenizer_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.142979132,"data":"outputs/dpo_hh/best/tokenizer.json\r\n"}
+,{"stream_name":"stdout","time":7215.142981575,"data":"outputs/dpo_hh/best/vocab.json\r\n"}
+,{"stream_name":"stdout","time":7215.142983864,"data":"outputs/dpo_hh/config_used.json\r\n"}
+,{"stream_name":"stdout","time":7215.142986162,"data":"outputs/dpo_hh/final\r\n"}
+,{"stream_name":"stdout","time":7215.142988535,"data":"outputs/dpo_hh/final/added_tokens.json\r\n"}
+,{"stream_name":"stdout","time":7215.142990849,"data":"outputs/dpo_hh/final/chat_template.jinja\r\n"}
+,{"stream_name":"stdout","time":7215.142993135,"data":"outputs/dpo_hh/final/config.json\r\n"}
+,{"stream_name":"stdout","time":7215.1429955,"data":"outputs/dpo_hh/final/generation_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.142997796,"data":"outputs/dpo_hh/final/merges.txt\r\n"}
+,{"stream_name":"stdout","time":7215.143000173,"data":"outputs/dpo_hh/final/model.safetensors\r\n"}
+,{"stream_name":"stdout","time":7215.143002461,"data":"outputs/dpo_hh/final/run_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143004737,"data":"outputs/dpo_hh/final/special_tokens_map.json\r\n"}
+,{"stream_name":"stdout","time":7215.143007051,"data":"outputs/dpo_hh/final/tokenizer_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143009409,"data":"outputs/dpo_hh/final/tokenizer.json\r\n"}
+,{"stream_name":"stdout","time":7215.143011683,"data":"outputs/dpo_hh/final/vocab.json\r\n"}
+,{"stream_name":"stdout","time":7215.143013937,"data":"outputs/dpo_hh/metrics.jsonl\r\n"}
+,{"stream_name":"stdout","time":7215.143016223,"data":"outputs/dpo_hh/summary.json\r\n"}
+,{"stream_name":"stdout","time":7215.143018501,"data":"outputs/dpo_small_outputs.zip\r\n"}
+,{"stream_name":"stdout","time":7215.143020957,"data":"outputs/dpo_uf\r\n"}
+,{"stream_name":"stdout","time":7215.143023294,"data":"outputs/dpo_uf/best\r\n"}
+,{"stream_name":"stdout","time":7215.143025571,"data":"outputs/dpo_uf/best/added_tokens.json\r\n"}
+,{"stream_name":"stdout","time":7215.143027869,"data":"outputs/dpo_uf/best/chat_template.jinja\r\n"}
+,{"stream_name":"stdout","time":7215.143030171,"data":"outputs/dpo_uf/best/config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143032436,"data":"outputs/dpo_uf/best/generation_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143034717,"data":"outputs/dpo_uf/best/merges.txt\r\n"}
+,{"stream_name":"stdout","time":7215.14303698,"data":"outputs/dpo_uf/best/model.safetensors\r\n"}
+,{"stream_name":"stdout","time":7215.143039255,"data":"outputs/dpo_uf/best/run_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143041523,"data":"outputs/dpo_uf/best/special_tokens_map.json\r\n"}
+,{"stream_name":"stdout","time":7215.143043809,"data":"outputs/dpo_uf/best/tokenizer_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143046091,"data":"outputs/dpo_uf/best/tokenizer.json\r\n"}
+,{"stream_name":"stdout","time":7215.143048379,"data":"outputs/dpo_uf/best/vocab.json\r\n"}
+,{"stream_name":"stdout","time":7215.143050645,"data":"outputs/dpo_uf/config_used.json\r\n"}
+,{"stream_name":"stdout","time":7215.143052924,"data":"outputs/dpo_uf/final\r\n"}
+,{"stream_name":"stdout","time":7215.143055176,"data":"outputs/dpo_uf/final/added_tokens.json\r\n"}
+,{"stream_name":"stdout","time":7215.143060161,"data":"outputs/dpo_uf/final/chat_template.jinja\r\n"}
+,{"stream_name":"stdout","time":7215.143062592,"data":"outputs/dpo_uf/final/config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143064876,"data":"outputs/dpo_uf/final/generation_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143067172,"data":"outputs/dpo_uf/final/merges.txt\r\n"}
+,{"stream_name":"stdout","time":7215.143069458,"data":"outputs/dpo_uf/final/model.safetensors\r\n"}
+,{"stream_name":"stdout","time":7215.143071729,"data":"outputs/dpo_uf/final/run_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143074,"data":"outputs/dpo_uf/final/special_tokens_map.json\r\n"}
+,{"stream_name":"stdout","time":7215.143076302,"data":"outputs/dpo_uf/final/tokenizer_config.json\r\n"}
+,{"stream_name":"stdout","time":7215.143078612,"data":"outputs/dpo_uf/final/tokenizer.json\r\n"}
+,{"stream_name":"stdout","time":7215.143081778,"data":"outputs/dpo_uf/final/vocab.json\r\n"}
+,{"stream_name":"stdout","time":7215.143084116,"data":"outputs/dpo_uf/metrics.jsonl\r\n"}
+,{"stream_name":"stdout","time":7215.143086406,"data":"outputs/dpo_uf/summary.json\r\n"}
+,{"stream_name":"stdout","time":7215.143088687,"data":"outputs/generations\r\n"}
+,{"stream_name":"stdout","time":7215.14309094,"data":"outputs/generations/dpo_hh_hh.json\r\n"}
+,{"stream_name":"stdout","time":7215.143093211,"data":"outputs/generations/dpo_uf_alpaca.json\r\n"}
+,{"stream_name":"stdout","time":7215.143095526,"data":"outputs/logs\r\n"}
+,{"stream_name":"stdout","time":7215.143097765,"data":"outputs/logs/dpo_hh.log\r\n"}
+,{"stream_name":"stdout","time":7215.143100037,"data":"outputs/logs/dpo_uf.log\r\n"}
+,{"stream_name":"stdout","time":7215.143102304,"data":"outputs/logs/gen_dpo_hh.log\r\n"}
+,{"stream_name":"stdout","time":7215.143104554,"data":"outputs/logs/gen_dpo_uf.log\r\n"}
+,{"stream_name":"stdout","time":7215.14310684,"data":"outputs/STAGE_dpo_DONE.json\r\n"}
+,{"stream_name":"stderr","time":7221.242898127,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7221.242927532,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7221.420490429,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7221.420513879,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7222.236495525,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7222.32854357,"data":"[NbConvertApp] Writing 28131 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7224.942536879,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7225.487366297,"data":"[NbConvertApp] Writing 299750 bytes to __results__.html\n"}
+]

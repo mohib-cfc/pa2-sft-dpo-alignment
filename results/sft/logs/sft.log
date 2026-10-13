@@ -1,0 +1,113 @@
+Generating train_sft split:   0%|          | 0/207865 [00:00<?, ? examples/s]Generating train_sft split:   0%|          | 1000/207865 [00:00<00:45, 4527.34 examples/s]Generating train_sft split:   3%|▎         | 7000/207865 [00:00<00:08, 24168.69 examples/s]Generating train_sft split:   6%|▌         | 12000/207865 [00:00<00:06, 29808.29 examples/s]Generating train_sft split:   9%|▊         | 18000/207865 [00:00<00:05, 36588.21 examples/s]Generating train_sft split:  12%|█▏        | 25000/207865 [00:00<00:04, 44305.49 examples/s]Generating train_sft split:  14%|█▍        | 30000/207865 [00:00<00:03, 45418.83 examples/s]Generating train_sft split:  18%|█▊        | 37000/207865 [00:00<00:03, 48579.86 examples/s]Generating train_sft split:  21%|██        | 44000/207865 [00:01<00:03, 51649.68 examples/s]Generating train_sft split:  25%|██▌       | 52000/207865 [00:01<00:03, 47978.67 examples/s]Generating train_sft split:  27%|██▋       | 57000/207865 [00:01<00:03, 46159.65 examples/s]Generating train_sft split:  30%|███       | 63000/207865 [00:01<00:03, 47816.14 examples/s]Generating train_sft split:  34%|███▍      | 70289/207865 [00:01<00:02, 47368.22 examples/s]Generating train_sft split:  37%|███▋      | 76289/207865 [00:01<00:02, 49816.76 examples/s]Generating train_sft split:  40%|███▉      | 82289/207865 [00:01<00:02, 49779.46 examples/s]Generating train_sft split:  42%|████▏     | 88289/207865 [00:01<00:02, 49693.57 examples/s]Generating train_sft split:  46%|████▌     | 95289/207865 [00:02<00:02, 53475.73 examples/s]Generating train_sft split:  49%|████▉     | 102289/207865 [00:02<00:02, 48106.57 examples/s]Generating train_sft split:  52%|█████▏    | 108289/207865 [00:02<00:02, 46830.54 examples/s]Generating train_sft split:  55%|█████▍    | 114289/207865 [00:02<00:01, 48029.75 examples/s]Generating train_sft split:  59%|█████▉    | 122289/207865 [00:02<00:01, 51918.08 examples/s]Generating train_sft split:  63%|██████▎   | 131289/207865 [00:02<00:01, 52253.77 examples/s]Generating train_sft split:  67%|██████▋   | 138289/207865 [00:02<00:01, 54251.17 examples/s]Generating train_sft split:  71%|███████   | 147577/207865 [00:03<00:01, 52921.83 examples/s]Generating train_sft split:  75%|███████▍  | 155577/207865 [00:03<00:00, 55808.42 examples/s]Generating train_sft split:  78%|███████▊  | 161577/207865 [00:03<00:00, 54613.22 examples/s]Generating train_sft split:  82%|████████▏ | 169577/207865 [00:03<00:00, 54804.18 examples/s]Generating train_sft split:  84%|████████▍ | 175577/207865 [00:03<00:00, 54497.36 examples/s]Generating train_sft split:  88%|████████▊ | 183577/207865 [00:03<00:00, 55105.31 examples/s]Generating train_sft split:  92%|█████████▏| 191577/207865 [00:03<00:00, 57568.72 examples/s]Generating train_sft split:  96%|█████████▌| 199577/207865 [00:04<00:00, 55874.60 examples/s]Generating train_sft split:  99%|█████████▉| 205577/207865 [00:04<00:00, 55346.00 examples/s]Generating train_sft split: 100%|██████████| 207865/207865 [00:04<00:00, 49656.76 examples/s]
+Generating test_sft split:   0%|          | 0/23110 [00:00<?, ? examples/s]Generating test_sft split:  17%|█▋        | 4000/23110 [00:00<00:00, 37037.68 examples/s]Generating test_sft split:  43%|████▎     | 10000/23110 [00:00<00:00, 47634.63 examples/s]Generating test_sft split:  74%|███████▎  | 17000/23110 [00:00<00:00, 53313.95 examples/s]Generating test_sft split: 100%|██████████| 23110/23110 [00:00<00:00, 54733.67 examples/s]
+Generating train_gen split:   0%|          | 0/256032 [00:00<?, ? examples/s]Generating train_gen split:   3%|▎         | 7000/256032 [00:00<00:03, 62883.93 examples/s]Generating train_gen split:   6%|▌         | 15000/256032 [00:00<00:03, 69491.46 examples/s]Generating train_gen split:   9%|▉         | 24000/256032 [00:00<00:03, 73718.65 examples/s]Generating train_gen split:  13%|█▎        | 33000/256032 [00:00<00:03, 74326.84 examples/s]Generating train_gen split:  17%|█▋        | 43000/256032 [00:00<00:03, 64784.48 examples/s]Generating train_gen split:  20%|█▉        | 50000/256032 [00:00<00:03, 61910.90 examples/s]Generating train_gen split:  24%|██▍       | 61000/256032 [00:00<00:03, 63235.97 examples/s]Generating train_gen split:  27%|██▋       | 69000/256032 [00:01<00:02, 64255.07 examples/s]Generating train_gen split:  30%|███       | 78000/256032 [00:01<00:02, 68067.84 examples/s]Generating train_gen split:  34%|███▎      | 86344/256032 [00:01<00:02, 69651.94 examples/s]Generating train_gen split:  37%|███▋      | 95344/256032 [00:01<00:02, 72774.94 examples/s]Generating train_gen split:  41%|████      | 104344/256032 [00:01<00:02, 74210.35 examples/s]Generating train_gen split:  44%|████▍     | 112344/256032 [00:01<00:01, 72971.76 examples/s]Generating train_gen split:  47%|████▋     | 121344/256032 [00:01<00:01, 72395.65 examples/s]Generating train_gen split:  51%|█████     | 129344/256032 [00:01<00:01, 73564.57 examples/s]Generating train_gen split:  55%|█████▍    | 140344/256032 [00:02<00:01, 70533.28 examples/s]Generating train_gen split:  59%|█████▉    | 151344/256032 [00:02<00:01, 68402.39 examples/s]Generating train_gen split:  62%|██████▏   | 158344/256032 [00:02<00:01, 66003.28 examples/s]Generating train_gen split:  65%|██████▍   | 166344/256032 [00:02<00:01, 68286.74 examples/s]Generating train_gen split:  69%|██████▊   | 175688/256032 [00:02<00:01, 67182.24 examples/s]Generating train_gen split:  72%|███████▏  | 183688/256032 [00:02<00:01, 68718.75 examples/s]Generating train_gen split:  75%|███████▍  | 191688/256032 [00:02<00:00, 68707.66 examples/s]Generating train_gen split:  78%|███████▊  | 200688/256032 [00:02<00:00, 70923.08 examples/s]Generating train_gen split:  82%|████████▏ | 208688/256032 [00:03<00:00, 70778.85 examples/s]Generating train_gen split:  86%|████████▌ | 219688/256032 [00:03<00:00, 68764.93 examples/s]Generating train_gen split:  89%|████████▊ | 226688/256032 [00:03<00:00, 66404.86 examples/s]Generating train_gen split:  92%|█████████▏| 234688/256032 [00:03<00:00, 68083.39 examples/s]Generating train_gen split:  95%|█████████▍| 242688/256032 [00:03<00:00, 68531.37 examples/s]Generating train_gen split:  98%|█████████▊| 251688/256032 [00:03<00:00, 71624.33 examples/s]Generating train_gen split: 100%|██████████| 256032/256032 [00:03<00:00, 69444.69 examples/s]
+Generating test_gen split:   0%|          | 0/28304 [00:00<?, ? examples/s]Generating test_gen split:  28%|██▊       | 8000/28304 [00:00<00:00, 63948.28 examples/s]Generating test_gen split:  60%|██████    | 17000/28304 [00:00<00:00, 71341.56 examples/s]Generating test_gen split:  88%|████████▊ | 25000/28304 [00:00<00:00, 73869.86 examples/s]Generating test_gen split: 100%|██████████| 28304/28304 [00:00<00:00, 75455.79 examples/s]
+[sft] train=30000 val=1000 counts={"train_raw": 207865, "train_nonempty_first_turn": 207843, "train_dropped_prompt_gt_256": 42278, "train_after_prompt_filter": 165565, "train_final": 30000, "val_raw": 23110, "val_nonempty_first_turn": 23108, "val_dropped_prompt_gt_256": 4781, "val_after_prompt_filter": 18327, "val_final": 1000}
+`torch_dtype` is deprecated! Use `dtype` instead!
+[sft] total_steps=938 warmup=28 precision=fp16 opt=adamw
+/kaggle/working/pa2/pa2/train_sft.py:201: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  win_loss += float(loss)
+[sft] step 1/938 loss=1.2941 lr=7.14e-07 gn=6.50 scale=65536 eta=1h28m peak=9.9GB
+[sft] step 10/938 loss=1.2576 lr=7.14e-06 gn=4.27 scale=65536 eta=1h13m peak=13.3GB
+[sft] step 20/938 loss=1.4761 lr=1.43e-05 gn=3.88 scale=65536 eta=1h12m peak=13.3GB
+[sft] step 30/938 loss=1.4101 lr=2.00e-05 gn=3.64 scale=65536 eta=1h13m peak=13.3GB
+[sft] step 40/938 loss=1.4771 lr=2.00e-05 gn=4.46 scale=65536 eta=1h12m peak=13.3GB
+[sft] step 50/938 loss=1.3156 lr=2.00e-05 gn=4.71 scale=65536 eta=1h12m peak=13.3GB
+[sft] step 60/938 loss=1.5032 lr=1.99e-05 gn=4.09 scale=65536 eta=1h11m peak=13.3GB
+[sft] step 70/938 loss=1.3676 lr=1.99e-05 gn=4.58 scale=65536 eta=1h11m peak=13.3GB
+[sft] step 80/938 loss=1.3210 lr=1.98e-05 gn=4.13 scale=65536 eta=1h10m peak=13.3GB
+[sft] step 90/938 loss=1.3319 lr=1.98e-05 gn=3.88 scale=65536 eta=1h09m peak=13.3GB
+[sft] step 100/938 loss=1.4008 lr=1.97e-05 gn=3.75 scale=65536 eta=1h09m peak=13.3GB
+[sft] step 110/938 loss=1.4689 lr=1.96e-05 gn=4.74 scale=65536 eta=1h08m peak=13.3GB
+[sft] step 120/938 loss=1.4164 lr=1.95e-05 gn=4.12 scale=65536 eta=1h07m peak=13.3GB
+[sft] step 130/938 loss=1.4018 lr=1.94e-05 gn=3.91 scale=65536 eta=1h06m peak=13.3GB
+[sft] step 140/938 loss=1.3393 lr=1.93e-05 gn=3.92 scale=65536 eta=1h05m peak=13.3GB
+[sft] step 150/938 loss=1.3863 lr=1.91e-05 gn=4.08 scale=65536 eta=1h05m peak=13.3GB
+[sft] step 150/938 val_loss=1.4395
+[sft] step 160/938 loss=1.3510 lr=1.90e-05 gn=3.83 scale=65536 eta=1h08m peak=13.3GB
+[sft] step 170/938 loss=1.4415 lr=1.88e-05 gn=4.21 scale=65536 eta=1h07m peak=13.3GB
+[sft] step 180/938 loss=1.4712 lr=1.87e-05 gn=3.88 scale=65536 eta=1h06m peak=13.3GB
+[sft] step 190/938 loss=1.4257 lr=1.85e-05 gn=3.83 scale=65536 eta=1h05m peak=13.3GB
+[sft] step 200/938 loss=1.5335 lr=1.83e-05 gn=3.80 scale=65536 eta=1h04m peak=13.3GB
+[sft] step 210/938 loss=1.3741 lr=1.81e-05 gn=3.95 scale=65536 eta=1h03m peak=13.3GB
+[sft] step 220/938 loss=1.5870 lr=1.79e-05 gn=4.19 scale=65536 eta=1h02m peak=13.3GB
+[sft] step 230/938 loss=1.3624 lr=1.77e-05 gn=4.09 scale=65536 eta=1h01m peak=13.3GB
+[sft] step 240/938 loss=1.4309 lr=1.75e-05 gn=3.71 scale=65536 eta=1h00m peak=13.3GB
+[sft] step 250/938 loss=1.3633 lr=1.72e-05 gn=4.55 scale=65536 eta=0h59m peak=13.3GB
+[sft] step 260/938 loss=1.3535 lr=1.70e-05 gn=3.77 scale=65536 eta=0h58m peak=13.3GB
+[sft] step 270/938 loss=1.5122 lr=1.67e-05 gn=3.72 scale=65536 eta=0h57m peak=13.3GB
+[sft] step 280/938 loss=1.3576 lr=1.65e-05 gn=4.30 scale=65536 eta=0h56m peak=13.3GB
+[sft] step 290/938 loss=1.4757 lr=1.62e-05 gn=4.17 scale=65536 eta=0h55m peak=13.3GB
+[sft] step 300/938 loss=1.4053 lr=1.59e-05 gn=3.88 scale=65536 eta=0h54m peak=13.3GB
+[sft] step 300/938 val_loss=1.4340
+[sft] step 310/938 loss=1.3842 lr=1.57e-05 gn=3.99 scale=65536 eta=0h55m peak=13.3GB
+[sft] step 320/938 loss=1.5233 lr=1.54e-05 gn=3.75 scale=65536 eta=0h54m peak=13.3GB
+[sft] step 330/938 loss=1.3096 lr=1.51e-05 gn=3.54 scale=65536 eta=0h53m peak=13.3GB
+[sft] step 340/938 loss=1.4126 lr=1.48e-05 gn=3.78 scale=65536 eta=0h52m peak=13.3GB
+[sft] step 350/938 loss=1.3978 lr=1.45e-05 gn=4.14 scale=65536 eta=0h51m peak=13.3GB
+[sft] step 360/938 loss=1.4135 lr=1.42e-05 gn=4.15 scale=65536 eta=0h50m peak=13.3GB
+[sft] step 370/938 loss=1.4616 lr=1.38e-05 gn=3.82 scale=65536 eta=0h49m peak=13.3GB
+[sft] step 380/938 loss=1.2674 lr=1.35e-05 gn=3.62 scale=65536 eta=0h48m peak=13.3GB
+[sft] step 390/938 loss=1.5007 lr=1.32e-05 gn=4.17 scale=65536 eta=0h47m peak=13.3GB
+[sft] step 400/938 loss=1.4020 lr=1.29e-05 gn=3.87 scale=65536 eta=0h46m peak=13.3GB
+[sft] step 410/938 loss=1.4830 lr=1.25e-05 gn=3.78 scale=65536 eta=0h45m peak=13.3GB
+[sft] step 420/938 loss=1.3226 lr=1.22e-05 gn=3.86 scale=65536 eta=0h44m peak=13.3GB
+[sft] step 430/938 loss=1.3880 lr=1.19e-05 gn=3.50 scale=65536 eta=0h44m peak=13.3GB
+[sft] step 440/938 loss=1.4901 lr=1.15e-05 gn=4.09 scale=65536 eta=0h43m peak=13.3GB
+[sft] step 450/938 loss=1.4991 lr=1.12e-05 gn=3.52 scale=65536 eta=0h42m peak=13.3GB
+[sft] step 450/938 val_loss=1.4161
+[sft] step 460/938 loss=1.4750 lr=1.08e-05 gn=3.82 scale=65536 eta=0h42m peak=13.3GB
+[sft] step 470/938 loss=1.2864 lr=1.05e-05 gn=3.95 scale=65536 eta=0h41m peak=13.3GB
+[sft] step 480/938 loss=1.3510 lr=1.01e-05 gn=3.85 scale=65536 eta=0h40m peak=13.3GB
+[sft] step 490/938 loss=1.4614 lr=9.79e-06 gn=5.62 scale=65536 eta=0h39m peak=13.3GB
+[sft] step 500/938 loss=1.2065 lr=9.45e-06 gn=4.06 scale=65536 eta=0h38m peak=13.3GB
+[sft] step 510/938 loss=1.3688 lr=9.10e-06 gn=3.87 scale=65536 eta=0h37m peak=13.3GB
+[sft] step 520/938 loss=1.4201 lr=8.76e-06 gn=3.39 scale=65536 eta=0h36m peak=13.3GB
+[sft] step 530/938 loss=1.4255 lr=8.42e-06 gn=3.86 scale=65536 eta=0h35m peak=13.3GB
+[sft] step 540/938 loss=1.3401 lr=8.08e-06 gn=3.47 scale=65536 eta=0h34m peak=13.3GB
+[sft] step 550/938 loss=1.3006 lr=7.74e-06 gn=5.09 scale=65536 eta=0h33m peak=13.3GB
+[sft] step 560/938 loss=1.2501 lr=7.41e-06 gn=3.67 scale=65536 eta=0h32m peak=13.3GB
+[sft] step 570/938 loss=1.5120 lr=7.07e-06 gn=3.63 scale=65536 eta=0h32m peak=13.3GB
+[sft] step 580/938 loss=1.3555 lr=6.75e-06 gn=3.51 scale=65536 eta=0h31m peak=13.3GB
+[sft] step 590/938 loss=1.5243 lr=6.42e-06 gn=3.68 scale=65536 eta=0h30m peak=13.3GB
+[sft] step 600/938 loss=1.4797 lr=6.10e-06 gn=3.60 scale=65536 eta=0h29m peak=13.3GB
+[sft] step 600/938 val_loss=1.3991
+[sft] step 610/938 loss=1.2870 lr=5.79e-06 gn=3.99 scale=65536 eta=0h28m peak=13.3GB
+[sft] step 620/938 loss=1.3661 lr=5.48e-06 gn=4.02 scale=65536 eta=0h28m peak=13.3GB
+[sft] step 630/938 loss=1.2705 lr=5.17e-06 gn=3.47 scale=65536 eta=0h27m peak=13.3GB
+[sft] step 640/938 loss=1.3051 lr=4.87e-06 gn=3.26 scale=65536 eta=0h26m peak=13.3GB
+[sft] step 650/938 loss=1.2775 lr=4.58e-06 gn=3.50 scale=65536 eta=0h25m peak=13.3GB
+[sft] step 660/938 loss=1.3110 lr=4.29e-06 gn=3.63 scale=65536 eta=0h24m peak=13.3GB
+[sft] step 670/938 loss=1.4746 lr=4.01e-06 gn=3.61 scale=65536 eta=0h23m peak=13.3GB
+[sft] step 680/938 loss=1.3741 lr=3.74e-06 gn=3.88 scale=65536 eta=0h22m peak=13.3GB
+[sft] step 690/938 loss=1.2787 lr=3.47e-06 gn=3.28 scale=65536 eta=0h21m peak=13.3GB
+[sft] step 700/938 loss=1.4189 lr=3.22e-06 gn=3.47 scale=65536 eta=0h20m peak=13.3GB
+[sft] step 710/938 loss=1.2101 lr=2.97e-06 gn=3.65 scale=65536 eta=0h19m peak=13.3GB
+[sft] step 720/938 loss=1.2204 lr=2.72e-06 gn=3.85 scale=65536 eta=0h19m peak=13.3GB
+[sft] step 730/938 loss=1.3928 lr=2.49e-06 gn=3.37 scale=65536 eta=0h18m peak=13.3GB
+[sft] step 740/938 loss=1.4753 lr=2.27e-06 gn=3.55 scale=65536 eta=0h17m peak=13.3GB
+[sft] step 750/938 loss=1.3424 lr=2.05e-06 gn=3.62 scale=65536 eta=0h16m peak=13.3GB
+[sft] step 750/938 val_loss=1.3873
+[sft] step 760/938 loss=1.2841 lr=1.85e-06 gn=4.27 scale=65536 eta=0h15m peak=13.3GB
+[sft] step 770/938 loss=1.3220 lr=1.65e-06 gn=3.62 scale=65536 eta=0h14m peak=13.3GB
+[sft] step 780/938 loss=1.3991 lr=1.47e-06 gn=3.59 scale=65536 eta=0h13m peak=13.3GB
+[sft] step 790/938 loss=1.2975 lr=1.29e-06 gn=3.45 scale=65536 eta=0h13m peak=13.3GB
+[sft] step 800/938 loss=1.3848 lr=1.13e-06 gn=3.45 scale=65536 eta=0h12m peak=13.3GB
+[sft] step 810/938 loss=1.2879 lr=9.75e-07 gn=3.37 scale=65536 eta=0h11m peak=13.3GB
+[sft] step 820/938 loss=1.4581 lr=8.32e-07 gn=3.52 scale=65536 eta=0h10m peak=13.3GB
+[sft] step 830/938 loss=1.3153 lr=7.00e-07 gn=3.60 scale=65536 eta=0h09m peak=13.3GB
+[sft] step 840/938 loss=1.3641 lr=5.78e-07 gn=3.68 scale=65536 eta=0h08m peak=13.3GB
+[sft] step 850/938 loss=1.4331 lr=4.68e-07 gn=4.01 scale=65536 eta=0h07m peak=13.3GB
+[sft] step 860/938 loss=1.4256 lr=3.70e-07 gn=4.12 scale=65536 eta=0h06m peak=13.3GB
+[sft] step 870/938 loss=1.4943 lr=2.82e-07 gn=4.31 scale=65536 eta=0h05m peak=13.3GB
+[sft] step 880/938 loss=1.1988 lr=2.07e-07 gn=4.30 scale=65536 eta=0h05m peak=13.3GB
+[sft] step 890/938 loss=1.2296 lr=1.43e-07 gn=3.67 scale=65536 eta=0h04m peak=13.3GB
+[sft] step 900/938 loss=1.3860 lr=9.05e-08 gn=3.63 scale=65536 eta=0h03m peak=13.3GB
+[sft] step 900/938 val_loss=1.3835
+[sft] step 910/938 loss=1.4570 lr=5.01e-08 gn=3.65 scale=65536 eta=0h02m peak=13.3GB
+[sft] step 920/938 loss=1.2531 lr=2.15e-08 gn=3.35 scale=65536 eta=0h01m peak=13.3GB
+[sft] step 930/938 loss=1.2448 lr=4.83e-09 gn=3.56 scale=65536 eta=0h00m peak=13.3GB
+[sft] step 938/938 loss=1.3826 lr=5.96e-11 gn=4.49 scale=65536 eta=0h00m peak=13.3GB
+[sft] step 938/938 val_loss=1.3834
+[sft] done. best_val=1.3834 @ step 938

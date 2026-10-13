@@ -1,0 +1,25 @@
+{
+  "n_gpus": 2,
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "sft_adamw_fp16_autocast_b2x512": {
+    "peak_gb": 11.429786624,
+    "micro_step_s": [
+      0.9789516925811768,
+      0.5822248458862305,
+      0.5402069091796875
+    ],
+    "seq_len": 512
+  },
+  "dpo_rmsprop_fp16ref_same_gpu": {
+    "peak_gb": 8.785588736,
+    "micro_step_s": [
+      0.5946931838989258,
+      0.4888761043548584,
+      0.49094200134277344
+    ],
+    "optimizer": "rmsprop"
+  }
+}

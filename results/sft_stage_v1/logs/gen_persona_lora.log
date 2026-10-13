@@ -1,0 +1,4 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+[gen] smollm2-360m-lora-dpo: 16/24
+[gen] smollm2-360m-lora-dpo: 24/24
+[gen] wrote outputs/generations/persona_lora.json (24 rows, 24s)

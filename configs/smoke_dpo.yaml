@@ -1,0 +1,15 @@
+sft_model: outputs/smoke/sft/best
+dataset: hh
+out_dir: outputs/smoke/dpo
+cache_dir: outputs/data
+max_length: 256
+per_device_batch: 1
+grad_accum: 2
+max_train_examples: 16
+max_val_examples: 8
+max_steps: 5
+precision: bf16
+ref_dtype: bf16
+optimizer: rmsprop
+val_every: 2
+val_batch: 2

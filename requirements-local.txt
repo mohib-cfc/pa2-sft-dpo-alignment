@@ -1,0 +1,4 @@
+# Extra tools for running locally (judging, checks). Install PyTorch separately.
+-r requirements.txt
+kaggle>=2.2
+pypdf

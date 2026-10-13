@@ -1,0 +1,42 @@
+The tokenizer you are loading from 'outputs/sft/best' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+[gen] qwen2.5-0.5b-sft: 16/300
+[gen] qwen2.5-0.5b-sft: 32/300
+[gen] qwen2.5-0.5b-sft: 48/300
+[gen] qwen2.5-0.5b-sft: 64/300
+[gen] qwen2.5-0.5b-sft: 80/300
+[gen] qwen2.5-0.5b-sft: 96/300
+[gen] qwen2.5-0.5b-sft: 112/300
+[gen] qwen2.5-0.5b-sft: 128/300
+[gen] qwen2.5-0.5b-sft: 144/300
+[gen] qwen2.5-0.5b-sft: 160/300
+[gen] qwen2.5-0.5b-sft: 176/300
+[gen] qwen2.5-0.5b-sft: 192/300
+[gen] qwen2.5-0.5b-sft: 208/300
+[gen] qwen2.5-0.5b-sft: 224/300
+[gen] qwen2.5-0.5b-sft: 240/300
+[gen] qwen2.5-0.5b-sft: 256/300
+[gen] qwen2.5-0.5b-sft: 272/300
+[gen] qwen2.5-0.5b-sft: 288/300
+[gen] qwen2.5-0.5b-sft: 300/300
+[gen] wrote outputs/generations/sft_alpaca.json (300 rows, 261s)
+[gen] qwen2.5-0.5b-sft: 16/300
+[gen] qwen2.5-0.5b-sft: 32/300
+[gen] qwen2.5-0.5b-sft: 48/300
+[gen] qwen2.5-0.5b-sft: 64/300
+[gen] qwen2.5-0.5b-sft: 80/300
+[gen] qwen2.5-0.5b-sft: 96/300
+[gen] qwen2.5-0.5b-sft: 112/300
+[gen] qwen2.5-0.5b-sft: 128/300
+[gen] qwen2.5-0.5b-sft: 144/300
+[gen] qwen2.5-0.5b-sft: 160/300
+[gen] qwen2.5-0.5b-sft: 176/300
+[gen] qwen2.5-0.5b-sft: 192/300
+[gen] qwen2.5-0.5b-sft: 208/300
+[gen] qwen2.5-0.5b-sft: 224/300
+[gen] qwen2.5-0.5b-sft: 240/300
+[gen] qwen2.5-0.5b-sft: 256/300
+[gen] qwen2.5-0.5b-sft: 272/300
+[gen] qwen2.5-0.5b-sft: 288/300
+[gen] qwen2.5-0.5b-sft: 300/300
+[gen] wrote outputs/generations/sft_hh.json (300 rows, 188s)

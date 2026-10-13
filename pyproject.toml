@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pa2-small-model-alignment"
+version = "0.1.0"
+description = "SFT + DPO alignment of Qwen2.5-0.5B, plus a TRL/LoRA persona DPO run (course PA2)."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["pa2"]

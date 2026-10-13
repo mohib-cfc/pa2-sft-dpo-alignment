@@ -1,0 +1,15 @@
+[sft] train=64 val=16 counts={"train_raw": 207865, "train_nonempty_first_turn": 207843, "train_checked_for_length": 37714, "train_dropped_prompt_gt_256": 7714, "train_final": 30000, "val_raw": 23110, "val_nonempty_first_turn": 23108, "val_checked_for_length": 1297, "val_dropped_prompt_gt_256": 297, "val_final": 1000}
+`torch_dtype` is deprecated! Use `dtype` instead!
+[sft] total_steps=6 warmup=1 precision=fp16 opt=adamw
+/kaggle/working/pa2/pa2/train_sft.py:198: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  win_loss += float(loss)
+[sft] step 1/6 loss=1.2317 lr=2.00e-05 gn=10.52 scale=65536 eta=0h00m peak=9.9GB
+[sft] step 2/6 loss=1.0990 lr=2.00e-05 gn=inf scale=32768 eta=0h00m peak=12.6GB
+[sft] step 3/6 loss=1.2234 lr=1.81e-05 gn=9.08 scale=32768 eta=0h00m peak=12.6GB
+[sft] step 3/6 val_loss=1.6191
+[sft] step 4/6 loss=0.9955 lr=1.31e-05 gn=14.99 scale=32768 eta=0h00m peak=12.6GB
+[sft] step 5/6 loss=1.2889 lr=6.91e-06 gn=10.19 scale=32768 eta=0h00m peak=12.6GB
+[sft] step 6/6 loss=1.7789 lr=1.91e-06 gn=9.70 scale=32768 eta=0h00m peak=12.6GB
+[sft] step 6/6 val_loss=1.6193
+[sft] done. best_val=1.6191 @ step 3
